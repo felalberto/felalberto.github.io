@@ -28,34 +28,9 @@ A part of [iGEM](https://igem.temple.edu/) and a member of the [ACME Lab](http:/
 *    [The Evolution of Brain-Derived Neurotrophic Factor (BDNF) Reveals Insight into Brain Disorder Vulnerability](https://www.biorxiv.org/content/10.1101/2022.01.21.477254v1)
 *    [Electrical synaptic transmission in developing zebrafish: properties and molecular composition of gap junctions at a central auditory synapse](https://journals.physiology.org/doi/full/10.1152/jn.00397.2014)
 
-**Science communication**
-* [2019 MidAtlantic Bioinformatics Conference](https://aglucaci.github.io/Resume/MH_Poster.pptx.pdf)
-* [28th International Dynamics & Evolution of Human Viruses](https://docs.google.com/presentation/d/18Nd-Lhy-vwYlWO9F-jEl4stRMlTVjYjT7NBPghigS6I/present?slide=id.p)
-* [5th Workshop on Virus Dynamics](https://aglucaci.github.io/Resume/AGL_5thWorkshopOnVirusDynamics.pdf)
-* 2021 Society for Molecular Biology & Evolution
-* [2021 MidAtlantic Bioinformatics Conference](https://aglucaci.github.io/Resume/AGL_5thWorkshopOnVirusDynamics.pdf)
-* 2021 EMBO Workshop: The Evolution of Animal Genomes
 
-**Science education and outreach**
-* Co-Founder, [Bioinformatics Studio](https://tubioinfostudio.github.io/)
-* Graduate Teaching Assistant, Genomics in Medicine 
-
-**Curriculum Vitae / Resume**
-*   [Link to my current CV](Resume/CV_AGL_2022.pdf)
-*   [Link to my current resume](Resume/RESUME_AGL_2022.pdf)
-
-**Masters Thesis**
-*   [The twilight of tobacco: how electronic cigarettes can change humanity's relationship with nicotine](https://drive.google.com/file/d/1t12NHLDER5Qxk8LCIBVqvUzTRKg-l8CM/view?usp=sharing)
-
-**Bioinformatics software**
-*   [Multi-hit](https://www.datamonkey.org/multihit)
-*   [AlignmentProfiler](https://colab.research.google.com/drive/1kOemj6hyH4tKmo_fcztoG95ipv3iovxP?usp=sharing)
-*   [Analysis of Orthologous Collections (AOC)](https://github.com/aglucaci/AnalysisOfOrthologousCollections)
-*   [Molecular Evolution SubSampling Investigator (MESSI)](https://github.com/aglucaci/SubsamplingSequences)
-*   [Gene Stoichiometry](https://github.com/veg/hyphy-examples/tree/master/gene_stoichiometry)
-*   [RASCL](https://github.com/veg/RASCL)
 
 **Contact**
-*   email: [aglucaci@gmail.com](mailto:aglucaci@gmail.com)
-*   twitter: [@aglucaci](https://twitter.com/aglucaci)
+*   email: [felalberto@gmail.com](mailto:felalberto@gmail.com)
+*   twitter: [@_nipz_](https://twitter.com/_nipz_)
 
