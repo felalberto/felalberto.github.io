@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Ph.D. Candidate in Bioinformatics at Temple University. 
+Computer Science Education Manager
 
 A part of [iGEM](https://igem.temple.edu/) and a member of the [ACME Lab](http://lab.hyphy.org/).
 
