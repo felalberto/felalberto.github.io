@@ -1,0 +1,35 @@
+<!-- Accessible @ http://htmlpreview.github.io/?https://github.com/aglucaci/Exploratory_HumanGenes/master/index.html -->
+<!-- http://evanplaice.github.io/jquery-csv/examples/basic-usage.html -->
+<b> #Exploratory Human Genes - Run analysis</b>
+<p></p>
+<script type = "text/javascript">
+$(document).ready(function() {
+   $.ajax({
+        type: "GET",
+        url: "https://drive.google.com/file/d/15Ld0602DWHjwEShLdIMsJMYqpyZ0sTC7/view?usp=sharing",
+        dataType: "text",
+        success: function(data) {processData(data);}
+     });
+});
+
+function processData(allText) {
+    var allTextLines = allText.split(/\r\n|\n/);
+    var headers = allTextLines[0].split(',');
+    var lines = [];
+
+    for (var i=1; i<allTextLines.length; i++) {
+        var data = allTextLines[i].split(',');
+        if (data.length == headers.length) {
+
+            var tarr = [];
+            for (var j=0; j<headers.length; j++) {
+                tarr.push(headers[j]+":"+data[j]);
+            }
+            lines.push(tarr);
+        }
+    }
+    alert(lines);
+}
+</script>
+
+Done. 2
