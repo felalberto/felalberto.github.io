@@ -5,8 +5,8 @@ layout: default
 Computer Science Education Manager
 
 **Curriculum Vitae / Resume**
-*   [Link to my current CV](Resume/CV_AGL_2022.pdf)
-*   [Link to my current resume](Resume/RESUME_AGL_2022.pdf)
+*   [Link to my current CV](Resume/test.pdf)
+*   [Link to my current resume](Resume/test.pdf)
 
 
 **Contact**
