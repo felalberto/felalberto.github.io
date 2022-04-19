@@ -5,7 +5,7 @@ layout: default
 Computer Science Education Manager
 
 **Resume**
-*   [Link to my current resume](Resume/test.pdf)
+*   [Link to my current resume](Resume/FAr.pdf)
 
 
 **Contact**
