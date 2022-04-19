@@ -4,8 +4,7 @@ layout: default
 
 Computer Science Education Manager
 
-**Curriculum Vitae / Resume**
-*   [Link to my current CV](Resume/test.pdf)
+**Resume**
 *   [Link to my current resume](Resume/test.pdf)
 
 
