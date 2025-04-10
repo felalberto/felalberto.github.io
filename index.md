@@ -1,6 +1,7 @@
 ---
-layout: home
-# Index page
+layout: page
+title: Home
+permalink: /
 ---
 
 
