@@ -5,6 +5,7 @@ date: 2025-04-10 12:00:00 +0000
 categories: [Portfolio]
 tags: [cs4all, public contribution, templates]
 excerpt: "Contributed planning templates, facilitator guides, and student coding tools to the public CS4All Blueprint platform."
+pin: true
 ---
 
 ### Role: Public Resource Contributor  
