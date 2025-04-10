@@ -4,5 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+# About Me
+
+Hi, I'm Felix Alberto — an instructional designer and curriculum developer passionate about e-learning, physical computing, and digital storytelling. 
+
+This site showcases my portfolio of instructional work, resource contributions, and creative projects.
