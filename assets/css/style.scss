@@ -1,1 +1,5 @@
-
+/* Hide Chirpy sidebar panels: Trending Tags + Recently Updated */
+.sidebar-panel .trending-tags,
+.sidebar-panel .update-list {
+  display: none !important;
+}
