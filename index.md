@@ -19,6 +19,6 @@ Here are a few examples of my work:
 - Physical Computing Curriculum (Grades 3–5)  
 - Digital Storytelling Professional Development  
 
-You can find details on these projects by visiting the **Categories** section of the site.
+🔗 **Explore more on the [Portfolio page](/categories/portfolio/)**
 
 ---
