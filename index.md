@@ -7,7 +7,7 @@ permalink: /
 
 **Instructional Designer | Curriculum Developer | Learning Experience Facilitator**
 
-Creative educator building blended learning experiences at the intersection of pedagogy, technology, and equity. I specialize in e-learning, physical computing, and digital storytelling that empower students and educators to explore, build, and reflect.
+Creative educator building blended learning experiences at the intersection of pedagogy, technology, and equity. I specialize in e-learning, physical computing (robotics), and computer science education that empower students and educators to explore, build, and reflect.
 
 ---
 
