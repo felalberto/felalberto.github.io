@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Digital Storytelling PD – Slide Walkthrough (Text Only)"
-date: 2025-04-11 09:30:00 +0000
+date: 2025-04-10 09:30:00 +0000
 categories: [Portfolio]
 tags: [storytelling, revealjs, slides]
 excerpt: "A text-only interactive slide deck overview of a 3-day Digital Storytelling PD using Scratch."
