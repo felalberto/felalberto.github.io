@@ -7,7 +7,16 @@ tags: [TR@TC, interdisciplinary, design thinking, computer science, community en
 excerpt: "Urban problem-solving meets interdisciplinary education: a TR@TC initiative combining CS, Life Science, and ELA to support student innovation through real-world challenges."
 ---
 
-🧠 **Overview**
+---
+layout: post
+title: "Digital Citizens Pathway – TR@TC Global Citizens Project"
+date: 2025-04-11 12:00:00 +0000
+categories: [Portfolio]
+tags: [TR@TC, interdisciplinary, design thinking, computer science, community engagement]
+excerpt: "Urban problem-solving meets interdisciplinary education: a TR@TC initiative combining CS, Life Science, and ELA to support student innovation through real-world challenges."
+---
+
+## 🧠 Overview
 
 The **Digital Citizens Pathway** was first developed as part of TR@TC’s Global Citizens initiative during the pivot to virtual learning in 2020. Originally launched as a virtual summer experience, this interdisciplinary program integrates **Computer Science**, **Life Science**, and **ELA Common Core standards** to help students explore and address real-world urban challenges.
 
@@ -15,7 +24,7 @@ Students were encouraged to investigate issues in their communities—such as **
 
 ---
 
-🔧 **My Role**
+## 🔧 My Role
 
 **Curriculum Designer, Site Director, Instructional Support**
 
@@ -27,7 +36,7 @@ Students were encouraged to investigate issues in their communities—such as **
 
 ---
 
-📚 **Curriculum Focus Areas**
+## 📚 Curriculum Focus Areas
 
 - **Computer Science**: Data collection, prototyping, basic coding (web and hardware-based tools)  
 - **Life Science**: Urban ecosystems, environmental monitoring, sustainability  
@@ -36,7 +45,7 @@ Students were encouraged to investigate issues in their communities—such as **
 
 ---
 
-💡 **Example Projects**
+## 💡 Example Projects
 
 - Designing **noise pollution sensors** using physical computing  
 - Building **advocacy websites** promoting green space in urban areas  
@@ -44,7 +53,7 @@ Students were encouraged to investigate issues in their communities—such as **
 
 ---
 
-🧰 **Tools & Platforms Used**
+## 🧰 Tools & Platforms Used
 
 - Microcontrollers (e.g., micro:bit, Arduino for prototyping)  
 - Scratch & MakeCode (coding environments)  
@@ -53,7 +62,7 @@ Students were encouraged to investigate issues in their communities—such as **
 
 ---
 
-🧩 **Standards Alignment**
+## 🧩 Standards Alignment
 
 - **NYC CS4All Blueprint**  
   - Computational Thinking practices (e.g., decomposition, iteration, debugging)  
@@ -64,7 +73,7 @@ Students were encouraged to investigate issues in their communities—such as **
 
 ---
 
-🎯 **Outcomes**
+## 🎯 Outcomes
 
 - Students demonstrated increased agency and interest in civic problem-solving  
 - Teachers gained confidence in interdisciplinary teaching and technology integration  
@@ -73,3 +82,4 @@ Students were encouraged to investigate issues in their communities—such as **
 - **Some students also earned school credit** for their completed submissions and final presentations
 
 🔗 Learn more: [TR@TC Global Citizens Program](https://www.tc.columbia.edu/teachingresidents/trtc-global-citizens/)
+
