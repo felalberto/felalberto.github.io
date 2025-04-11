@@ -54,9 +54,4 @@ Teachers report it’s helped them **infuse CT concepts without sacrificing ELA 
 
 ## 📎 View the Guide
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTOQkOYVIdo68fZLfcIJD3PV0SDMtrEdPQl9i7vm6czQ0hMSQ_yjCW0OgGVyR06RA/embed?start=false&loop=false&delayms=3000" 
-        frameborder="0" 
-        width="100%" 
-        height="500" 
-        allowfullscreen>
-</iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTRwJXbZir6rldqH0eVF6bDaFvwhC9bT4SJTd1IxOwg3BkKycF1TCjnD4618SlLeTgPRWo17b_DMrYs/embed?start=false&loop=false&delayms=3000" frameborder="0" width="768" height="989" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
