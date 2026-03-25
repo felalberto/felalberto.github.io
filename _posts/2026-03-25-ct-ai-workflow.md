@@ -353,3 +353,18 @@ Apply this framework to your next lesson by:
 This framework is not intended to add complexity.  
 
 It is designed to improve clarity, alignment, and instructional effectiveness while making AI a controlled and purposeful tool in the planning process.
+
+---
+
+## 🎥 Supporting Presentation
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQNiS-HZVF8oz9htm1cLOdTuU2ImYHPGC_v-Y9XRaNrzofuomtOFI7mOmKlEfkteAdGpa2vWtmiFLO7/pubembed?start=false&loop=false&delayms=3000"
+width="100%"
+height="500"
+frameborder="0"
+allowfullscreen="true">
+</iframe>
+
+<br>
+
+[Open Full Presentation →](https://docs.google.com/presentation/d/19dIoFc7hAQN1WvpV5Pn_QCwP0jswpPLVbWDaKqs4StI/)
