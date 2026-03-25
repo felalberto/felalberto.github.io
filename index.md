@@ -27,64 +27,51 @@ Practical systems for K–12 schools to strengthen core contents through various
   </a>
 </div>
 ---
-
-
 ## 🎯 Who This Is For
 
-- 🏫 Principals looking to strengthen instruction with computing education 
-- 🧑‍💼 District leaders building AI and computer science initiatives  
-- 📚 Schools trying to connect ELA, Math, and real-world skills  
-- 🤝 Organizations supporting workforce development and STEM pathways  
-
+- Principals looking to strengthen instruction with computing education 
+- District leaders building AI and computer science initiatives  
+- Schools trying to connect ELA, Math, and real-world skills  
+- Organizations supporting workforce development and STEM pathways  
 ---
 
 ## 🛠 What I Help Schools Do
 
-- 🧠 Integrate computational thinking into existing ELA and Math lessons  
-- 👩‍🏫 Train teachers with classroom-ready strategies that actually work  
-- 🤖 Build foundational AI literacy across grade levels  
-- 📈 Design scalable systems that don’t rely on one teacher or one program  
-
+- Integrate computational thinking into existing ELA and Math lessons  
+- Train teachers with classroom-ready strategies that actually work  
+- Build foundational AI literacy across grade levels  
+- Design scalable systems that don’t rely on one teacher or one program  
 ---
-
 ## 🧩 The CodeBronx Approach
 
-1. 📘 Start with existing curriculum (no extra programs)  
-2. 🔗 Layer in computational thinking concepts  
-3. 🤖 Support planning and decision making  
-4. 🏫 Apply directly in real classrooms  
-5. 🔁 Refine based on actual student outcomes  
-
+1. Start with existing curriculum (no extra programs)  
+2. Layer in computational thinking concepts  
+3. Support planning and decision making  
+4. Apply directly in real classrooms  
+5. Refine based on actual student outcomes  
 ---
-
 ## 📊 Results & Experience
 
-- 🏙 Supported multiple NYC public schools with computational thinking integration  
-- 🎤 Designed and led professional development for K–8 educators  
-- 🧪 Built classroom-ready lessons used by teachers immediately  
-- 🤝 Worked directly in classrooms coaching teachers and supporting instruction  
-
+- Supported multiple NYC public schools with computational thinking integration  
+- Designed and led professional development for K–8 educators  
+- Built classroom-ready lessons used by teachers immediately  
+- Worked directly in classrooms coaching teachers and supporting instruction  
 ---
-
 ## ⚙️ How It Works
 <span id="how-it-works"></span>
 
-1. 🧭 Initial consultation to understand your school or district goals  
-2. 🔍 Review of current curriculum and instructional priorities  
-3. 🛠 Custom plan aligned to your classrooms and timeline  
-4. 🚀 Implementation through professional development, coaching, and classroom support  
-5. 📈 Ongoing refinement based on teacher and student feedback  
-
+1. Initial consultation to understand your school or district goals  
+2. Review of current curriculum and instructional priorities  
+3. Custom plan aligned to your classrooms and timeline  
+4. Implementation through professional development, coaching, and classroom support  
+5. Ongoing refinement based on teacher and student feedback  
 ---
-
 ## 📚 Resources for Educators
 
-- 🧠 [Computational Thinking + AI Workflow](https://felalberto.github.io/posts/ct-ai-workflow/)  
-- 📘 [Integrating Computational Thinking into Instruction](#)  
-- 🤖 [Teacher Planning with AI](#)  
-
+- [Computational Thinking + AI Workflow](https://felalberto.github.io/posts/ct-ai-workflow/)  
+- [Integrating Computational Thinking into Instruction](#)  
+- [Teacher Planning with AI](#)  
 ---
-
 ## 📣 Let’s Work Together
 
 If you are looking to strengthen instruction, build AI literacy, or bring computational thinking into your school, let’s talk.
@@ -95,9 +82,7 @@ If you are looking to strengthen instruction, build AI literacy, or bring comput
     📅 Book a Call
   </a>
 </div>
-
 ---
-
 ## 📬 Contact
 <span id="contact"></span>
 
