@@ -3,3 +3,16 @@
 .sidebar-panel .update-list {
   display: none !important;
 }
+
+/* Tighten bullet spacing inside post content */
+.post-content ul li,
+.post-content ol li {
+  margin-bottom: 0.2rem !important;
+  line-height: 1.5;
+}
+
+/* Optional: reduce space below lists a bit */
+.post-content ul,
+.post-content ol {
+  margin-bottom: 0.75rem;
+}
