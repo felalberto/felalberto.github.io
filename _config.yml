@@ -68,7 +68,8 @@ analytics:
 pageviews:
   provider:
 
-theme_mode:
+# Force Chirpy to use light mode so the site does not render with a black background.
+theme_mode: light
 
 cdn:
 
