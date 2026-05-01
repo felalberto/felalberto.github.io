@@ -16,3 +16,155 @@
 .post-content ol {
   margin-bottom: 0.75rem;
 }
+
+/* -------------------------------------------------------
+   CodeBronx visual identity overrides for Chirpy
+   ------------------------------------------------------- */
+
+:root {
+  --cb-primary: #2563eb;
+  --cb-primary-dark: #1d4ed8;
+  --cb-text: #0f172a;
+  --cb-muted: #475569;
+  --cb-line: #e2e8f0;
+  --cb-soft-blue: #eff6ff;
+}
+
+/* Make the overall site feel cleaner and closer to the preview */
+html,
+body,
+#main-wrapper,
+#main,
+main,
+#topbar-wrapper,
+#topbar {
+  background: #ffffff !important;
+}
+
+body {
+  color: var(--cb-text) !important;
+}
+
+/* Clean white content surface */
+#main > div,
+#main-wrapper > div,
+main > div {
+  background: #ffffff !important;
+}
+
+/* Sidebar shell */
+#sidebar {
+  background: #ffffff !important;
+  border-right: 1px solid var(--cb-line) !important;
+  box-shadow: 10px 0 30px rgba(15, 23, 42, 0.035);
+}
+
+/* Sidebar brand area */
+#sidebar .site-title,
+#sidebar .site-title a {
+  color: var(--cb-text) !important;
+  font-weight: 900 !important;
+  letter-spacing: -0.04em;
+}
+
+#sidebar .site-subtitle {
+  color: var(--cb-muted) !important;
+  font-size: 0.88rem !important;
+  line-height: 1.35 !important;
+  max-width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Avatar treatment: make existing avatar feel more like a clean brand mark */
+#avatar,
+#sidebar #avatar {
+  border-radius: 18px !important;
+  padding: 4px;
+  background: var(--cb-text) !important;
+  box-shadow: 0 16px 35px rgba(15, 23, 42, 0.12);
+}
+
+#avatar img,
+#sidebar #avatar img {
+  border-radius: 14px !important;
+}
+
+/* Sidebar navigation: card-like links */
+#sidebar .nav-link,
+#sidebar .nav-item a {
+  border-radius: 12px !important;
+  color: var(--cb-muted) !important;
+  font-weight: 650 !important;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
+}
+
+#sidebar .nav-link:hover,
+#sidebar .nav-item a:hover {
+  background: var(--cb-soft-blue) !important;
+  color: var(--cb-primary-dark) !important;
+  transform: translateX(2px);
+}
+
+#sidebar .nav-link.active,
+#sidebar .nav-item.active a,
+#sidebar .nav-item .active {
+  background: var(--cb-soft-blue) !important;
+  color: var(--cb-primary-dark) !important;
+  font-weight: 800 !important;
+}
+
+#sidebar .nav-link i,
+#sidebar .nav-item i {
+  color: var(--cb-primary) !important;
+  opacity: 0.95;
+}
+
+/* Sidebar social/contact icons */
+#sidebar .sidebar-bottom a,
+#sidebar .sidebar-bottom i {
+  color: var(--cb-muted) !important;
+}
+
+#sidebar .sidebar-bottom a:hover,
+#sidebar .sidebar-bottom a:hover i {
+  color: var(--cb-primary) !important;
+}
+
+/* Topbar should match the white background */
+#topbar-wrapper,
+#topbar {
+  border-bottom: 1px solid var(--cb-line) !important;
+  box-shadow: none !important;
+}
+
+/* Homepage content should sit on white, not gray */
+.cb-home,
+.cb-section,
+.cb-hero,
+.cb-card,
+.cb-resource {
+  background-color: #ffffff;
+}
+
+/* Make homepage hero blend better with the white page while preserving depth */
+.cb-hero {
+  background: radial-gradient(circle at top right, rgba(37, 99, 235, 0.10), transparent 34%), #ffffff !important;
+}
+
+/* Resource cards: remove placeholder-looking feeling */
+.cb-resource[href="#"] {
+  opacity: 0.8;
+}
+
+/* Mobile sidebar/topbar cleanup */
+@media (max-width: 849px) {
+  #sidebar {
+    box-shadow: none;
+  }
+
+  #topbar-wrapper,
+  #topbar {
+    background: #ffffff !important;
+  }
+}
