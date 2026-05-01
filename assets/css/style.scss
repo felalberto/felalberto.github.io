@@ -21,40 +21,108 @@
    CodeBronx visual identity overrides for Chirpy
    ------------------------------------------------------- */
 
-:root {
+:root,
+html[data-mode],
+html[data-mode="dark"],
+html[data-mode="light"] {
   --cb-primary: #2563eb;
   --cb-primary-dark: #1d4ed8;
   --cb-text: #0f172a;
   --cb-muted: #475569;
   --cb-line: #e2e8f0;
   --cb-soft-blue: #eff6ff;
+
+  /* Chirpy theme variables: force light surfaces */
+  --main-bg: #ffffff !important;
+  --mask-bg: #ffffff !important;
+  --sidebar-bg: #ffffff !important;
+  --topbar-bg: #ffffff !important;
+  --card-bg: #ffffff !important;
+  --body-bg: #ffffff !important;
+  --html-bg: #ffffff !important;
+  --text-color: #0f172a !important;
+  --heading-color: #0f172a !important;
+  --label-color: #334155 !important;
+  --site-title-color: #0f172a !important;
+  --site-subtitle-color: #475569 !important;
+  --link-color: #2563eb !important;
+  --link-underline-color: #93c5fd !important;
+  --border-color: #e2e8f0 !important;
+  --btn-border-color: #cbd5e1 !important;
 }
 
-/* Make the overall site feel cleaner and closer to the preview */
+/* Make the overall site white even if Chirpy/system dark mode was cached */
 html,
+html[data-mode="dark"],
+html[data-mode="light"],
 body,
 #main-wrapper,
 #main,
 main,
 #topbar-wrapper,
-#topbar {
+#topbar,
+.content,
+.page,
+.post,
+.panel-wrapper,
+#access-lastmod,
+#tail-wrapper,
+#search-result-wrapper,
+#search-results,
+#post-list,
+#archives,
+#page-category,
+#page-tag,
+#page-archives {
   background: #ffffff !important;
+  background-color: #ffffff !important;
+  color: var(--cb-text) !important;
 }
 
 body {
   color: var(--cb-text) !important;
 }
 
+/* Text readability */
+p,
+li,
+td,
+th,
+blockquote,
+.post-content,
+.content,
+.page-content,
+.post-tail-wrapper,
+#main-wrapper .content {
+  color: var(--cb-text) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.dynamic-title {
+  color: var(--cb-text) !important;
+}
+
 /* Clean white content surface */
 #main > div,
 #main-wrapper > div,
-main > div {
+main > div,
+article,
+.post-content,
+.page-content {
   background: #ffffff !important;
+  background-color: #ffffff !important;
 }
 
 /* Sidebar shell */
 #sidebar {
   background: #ffffff !important;
+  background-color: #ffffff !important;
   border-right: 1px solid var(--cb-line) !important;
   box-shadow: 10px 0 30px rgba(15, 23, 42, 0.035);
 }
@@ -136,6 +204,8 @@ main > div {
 #topbar {
   border-bottom: 1px solid var(--cb-line) !important;
   box-shadow: none !important;
+  background: #ffffff !important;
+  background-color: #ffffff !important;
 }
 
 /* Homepage content should sit on white, not gray */
@@ -152,6 +222,28 @@ main > div {
   background: radial-gradient(circle at top right, rgba(37, 99, 235, 0.10), transparent 34%), #ffffff !important;
 }
 
+/* Keep intentional dark cards readable */
+.cb-hero-card,
+.cb-method,
+.cb-final-cta {
+  color: #ffffff !important;
+}
+
+.cb-hero-card p,
+.cb-hero-card li,
+.cb-method p,
+.cb-method span,
+.cb-final-cta p {
+  color: #dbeafe !important;
+}
+
+.cb-method h2,
+.cb-method .cb-kicker,
+.cb-final-cta h2,
+.cb-hero-card h2 {
+  color: #ffffff !important;
+}
+
 /* Resource cards: remove placeholder-looking feeling */
 .cb-resource[href="#"] {
   opacity: 0.8;
@@ -166,5 +258,6 @@ main > div {
   #topbar-wrapper,
   #topbar {
     background: #ffffff !important;
+    background-color: #ffffff !important;
   }
 }
