@@ -12,12 +12,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Felix Alberto Portfolio
+title: CodeBronx
 
-tagline: Instructional Designer | Curriculum Developer | Learning Experience Facilitator
+tagline: Practical Computing Education for K–12 Schools
 
 description: >-
-  Creative educator building blended learning experiences at the intersection of pedagogy, technology, and equity.
+  CodeBronx helps schools integrate computational thinking, AI literacy, and computer science into everyday instruction through professional development, coaching, and curriculum support.
 
 url: "https://felalberto.github.io"
 
@@ -28,7 +28,7 @@ twitter:
   username: _nipz_
 
 social:
-  name: Felix Alberto
+  name: CodeBronx / Felix Alberto
   email: felalberto@gmail.com
   links:
     - https://twitter.com/_nipz_
