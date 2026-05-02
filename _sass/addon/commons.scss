@@ -1,0 +1,8 @@
+/* Hide Chirpy's right-side accessory panel globally.
+   Removes Recently Updated, Trending Tags, and related archive/sidebar widgets
+   across desktop and mobile. */
+#panel-wrapper,
+#access-lastmod,
+#access-tags {
+  display: none !important;
+}
