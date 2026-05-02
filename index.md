@@ -21,6 +21,12 @@ permalink: /
   .cb-home * { box-sizing: border-box; }
   .cb-home a { text-decoration: none; }
 
+  #panel-wrapper,
+  #access-lastmod,
+  #access-tags {
+    display: none !important;
+  }
+
   .cb-hero {
     display: grid;
     grid-template-columns: minmax(0, 1.25fr) minmax(240px, 0.75fr);
