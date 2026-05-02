@@ -222,46 +222,32 @@ permalink: /
 
   <section class="cb-section" id="services">
     <div class="cb-section-header">
-      <div class="cb-kicker">What CodeBronx helps schools do</div>
-      <h2>Make computing education usable.</h2>
-      <p>Start with existing instruction, then build practical connections to computational thinking, AI literacy, and computer science.</p>
+      <div class="cb-kicker">Start here</div>
+      <h2>Choose the support your school needs most.</h2>
+      <p>Start with one focused entry point: instructional integration, AI literacy, or teacher support.</p>
     </div>
 
     <div class="cb-grid-3">
       <div class="cb-card">
         <div class="cb-icon">🧠</div>
-        <h3>Integrate CT into instruction</h3>
-        <p>Connect decomposition, patterns, abstraction, and algorithms to ELA, Math, STEM, and student problem solving.</p>
-        <a class="cb-button cb-button-secondary" href="/services/">Explore services</a>
+        <h3>Integrate CT into Core Instruction</h3>
+        <p>Bring computational thinking into ELA, Math, and STEM without adding another initiative.</p>
+        <a class="cb-button cb-button-secondary" href="/services/">See CT support</a>
       </div>
 
       <div class="cb-card">
         <div class="cb-icon">🤖</div>
-        <h3>Build AI literacy</h3>
-        <p>Help students think first, use AI responsibly, analyze output, verify claims, and explain decisions.</p>
-        <a class="cb-button cb-button-secondary" href="/services/">Explore services</a>
+        <h3>Build AI-Ready Classrooms</h3>
+        <p>Help students question AI, verify claims, explain decisions, and use tools responsibly.</p>
+        <a class="cb-button cb-button-secondary" href="/services/">See AI literacy support</a>
       </div>
 
       <div class="cb-card">
         <div class="cb-icon">🛠️</div>
-        <h3>Support teachers</h3>
-        <p>Design professional learning, coaching, and classroom-ready materials that teachers can actually use.</p>
+        <h3>Strengthen Teacher Practice</h3>
+        <p>Give teachers practical PD, coaching, and classroom-ready materials they can use right away.</p>
         <a class="cb-button cb-button-secondary" href="/packages/">View packages</a>
       </div>
-    </div>
-  </section>
-
-  <section class="cb-section" id="next">
-    <div class="cb-section-header">
-      <div class="cb-kicker">Explore next</div>
-      <h2>Go deeper when you are ready.</h2>
-      <p>The homepage is the starting point. The deeper pages explain the services, packages, and how to start a conversation.</p>
-    </div>
-
-    <div class="cb-resource-list">
-      <a class="cb-resource" href="/services/"><div><strong>Services</strong><br><span>See the types of support CodeBronx provides for schools and organizations.</span></div><strong>→</strong></a>
-      <a class="cb-resource" href="/packages/"><div><strong>Packages</strong><br><span>Review clear entry points from starter workshops to schoolwide partnerships.</span></div><strong>→</strong></a>
-      <a class="cb-resource" href="/contact/"><div><strong>Contact</strong><br><span>Start a conversation about your school, district, or organization’s needs.</span></div><strong>→</strong></a>
     </div>
   </section>
 
