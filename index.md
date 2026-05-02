@@ -198,12 +198,12 @@ permalink: /
     </div>
 
     <div class="cb-hero-card">
-      <h2>Working with</h2>
+      <h2>What we deliver</h2>
       <ul class="cb-mini-list">
-        <li>✓ Practical PD</li>
+        <li>✓ Practical professional development</li>
         <li>✓ AI literacy</li>
         <li>✓ CT integration</li>
-        <li>✓ School implementation</li>
+        <li>✓ Schoolwide implementation</li>
       </ul>
     </div>
   </section>
