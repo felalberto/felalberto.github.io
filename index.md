@@ -163,10 +163,6 @@ permalink: /
     background: var(--cb-soft-blue);
   }
 
-  .cb-resource-list { display: grid; gap: 12px; }
-  .cb-resource { display: flex; justify-content: space-between; gap: 20px; align-items: center; background: #ffffff; border: 1px solid var(--cb-line); border-radius: 16px; padding: 18px 20px; color: var(--cb-text) !important; }
-  .cb-resource span { color: var(--cb-muted); font-size: 0.95rem; }
-
   .cb-final-cta {
     text-align: center;
     padding: 50px;
@@ -190,7 +186,7 @@ permalink: /
 <div class="cb-home">
   <section class="cb-hero">
     <div>
-      <div class="cb-eyebrow">Bronx-built • School-ready • AI-era instruction</div>
+      <div class="cb-eyebrow">Bronx-based • Classroom-ready • AI-era instruction</div>
       <h1>Practical computing education for K–12 schools.</h1>
       <p class="cb-lead">
         CodeBronx helps schools turn AI literacy and computer science from abstract initiatives into classroom-ready instruction.
@@ -202,7 +198,7 @@ permalink: /
     </div>
 
     <div class="cb-hero-card">
-      <h2>Built for</h2>
+      <h2>Working with</h2>
       <ul class="cb-mini-list">
         <li>✓ Practical PD</li>
         <li>✓ AI literacy</li>
@@ -213,7 +209,7 @@ permalink: /
   </section>
 
   <div class="cb-audience-strip">
-    <strong>Built for:</strong>
+    <strong>Working with:</strong>
     <span class="cb-pill">Principals</span>
     <span class="cb-pill">District Leaders</span>
     <span class="cb-pill">Teachers</span>
