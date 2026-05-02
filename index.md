@@ -163,26 +163,6 @@ permalink: /
     background: var(--cb-soft-blue);
   }
 
-  .cb-proof-strip {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 12px;
-    padding: 18px;
-    border-radius: 22px;
-    background: #0f172a;
-    box-shadow: var(--cb-shadow);
-  }
-
-  .cb-proof-item {
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(255,255,255,0.12);
-    border-radius: 16px;
-    padding: 16px;
-  }
-
-  .cb-proof-item strong { display: block; color: #ffffff; font-size: 1.35rem; letter-spacing: -0.03em; margin-bottom: 4px; }
-  .cb-proof-item span { color: #cbd5e1; font-size: 0.9rem; }
-
   .cb-resource-list { display: grid; gap: 12px; }
   .cb-resource { display: flex; justify-content: space-between; gap: 20px; align-items: center; background: #ffffff; border: 1px solid var(--cb-line); border-radius: 16px; padding: 18px 20px; color: var(--cb-text) !important; }
   .cb-resource span { color: var(--cb-muted); font-size: 0.95rem; }
@@ -203,7 +183,7 @@ permalink: /
 
   @media (max-width: 920px) {
     .cb-hero { grid-template-columns: 1fr; padding: 32px; }
-    .cb-grid-3, .cb-proof-strip { grid-template-columns: 1fr; }
+    .cb-grid-3 { grid-template-columns: 1fr; }
   }
 </style>
 
@@ -268,15 +248,6 @@ permalink: /
         <p>Design professional learning, coaching, and classroom-ready materials that teachers can actually use.</p>
         <a class="cb-button cb-button-secondary" href="/packages/">View packages</a>
       </div>
-    </div>
-  </section>
-
-  <section class="cb-section" id="proof">
-    <div class="cb-proof-strip">
-      <div class="cb-proof-item"><strong>K–8</strong><span>Teacher-facing PD and classroom support</span></div>
-      <div class="cb-proof-item"><strong>NYC</strong><span>School implementation experience</span></div>
-      <div class="cb-proof-item"><strong>ELA + Math</strong><span>Core instruction integration</span></div>
-      <div class="cb-proof-item"><strong>AI + CS</strong><span>Future-ready student thinking</span></div>
     </div>
   </section>
 
