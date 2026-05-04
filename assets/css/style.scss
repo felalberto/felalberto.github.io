@@ -19,18 +19,23 @@
 
 /* -------------------------------------------------------
    CodeBronx visual identity overrides for Chirpy
+   Palette from current CodeBronx logo:
+   Purple accent + black text + white background
    ------------------------------------------------------- */
 
 :root,
 html[data-mode],
 html[data-mode="dark"],
 html[data-mode="light"] {
-  --cb-primary: #2563eb;
-  --cb-primary-dark: #1d4ed8;
-  --cb-text: #0f172a;
-  --cb-muted: #475569;
-  --cb-line: #e2e8f0;
-  --cb-soft-blue: #eff6ff;
+  --cb-primary: #8b4dff;
+  --cb-primary-dark: #6f35e8;
+  --cb-primary-soft: #f3ecff;
+  --cb-primary-line: #d7c4ff;
+  --cb-black: #050505;
+  --cb-text: #050505;
+  --cb-muted: #4b5563;
+  --cb-line: #e5e7eb;
+  --cb-soft-blue: #f3ecff;
 
   /* Chirpy theme variables: force light surfaces */
   --main-bg: #ffffff !important;
@@ -40,15 +45,15 @@ html[data-mode="light"] {
   --card-bg: #ffffff !important;
   --body-bg: #ffffff !important;
   --html-bg: #ffffff !important;
-  --text-color: #0f172a !important;
-  --heading-color: #0f172a !important;
-  --label-color: #334155 !important;
-  --site-title-color: #0f172a !important;
-  --site-subtitle-color: #475569 !important;
-  --link-color: #2563eb !important;
-  --link-underline-color: #93c5fd !important;
-  --border-color: #e2e8f0 !important;
-  --btn-border-color: #cbd5e1 !important;
+  --text-color: #050505 !important;
+  --heading-color: #050505 !important;
+  --label-color: #374151 !important;
+  --site-title-color: #050505 !important;
+  --site-subtitle-color: #4b5563 !important;
+  --link-color: #8b4dff !important;
+  --link-underline-color: #d7c4ff !important;
+  --border-color: #e5e7eb !important;
+  --btn-border-color: #d1d5db !important;
 }
 
 /* Make the overall site white even if Chirpy/system dark mode was cached */
@@ -124,7 +129,7 @@ article,
   background: #ffffff !important;
   background-color: #ffffff !important;
   border-right: 1px solid var(--cb-line) !important;
-  box-shadow: 10px 0 30px rgba(15, 23, 42, 0.035);
+  box-shadow: 10px 0 30px rgba(5, 5, 5, 0.035);
 }
 
 /* Sidebar brand area */
@@ -149,8 +154,8 @@ article,
 #sidebar #avatar {
   border-radius: 18px !important;
   padding: 4px;
-  background: var(--cb-text) !important;
-  box-shadow: 0 16px 35px rgba(15, 23, 42, 0.12);
+  background: var(--cb-primary) !important;
+  box-shadow: 0 16px 35px rgba(139, 77, 255, 0.18);
 }
 
 #avatar img,
@@ -169,7 +174,7 @@ article,
 
 #sidebar .nav-link:hover,
 #sidebar .nav-item a:hover {
-  background: var(--cb-soft-blue) !important;
+  background: var(--cb-primary-soft) !important;
   color: var(--cb-primary-dark) !important;
   transform: translateX(2px);
 }
@@ -177,7 +182,7 @@ article,
 #sidebar .nav-link.active,
 #sidebar .nav-item.active a,
 #sidebar .nav-item .active {
-  background: var(--cb-soft-blue) !important;
+  background: var(--cb-primary-soft) !important;
   color: var(--cb-primary-dark) !important;
   font-weight: 800 !important;
 }
@@ -208,40 +213,187 @@ article,
   background-color: #ffffff !important;
 }
 
-/* Homepage content should sit on white, not gray */
+/* Homepage/content surfaces */
 .cb-home,
 .cb-section,
 .cb-hero,
 .cb-card,
-.cb-resource {
+.cb-resource,
+.cb-services,
+.cb-packages,
+.cb-about,
+.cb-contact {
   background-color: #ffffff;
 }
 
-/* Make homepage hero blend better with the white page while preserving depth */
-.cb-hero {
-  background: radial-gradient(circle at top right, rgba(37, 99, 235, 0.10), transparent 34%), #ffffff !important;
+/* Global CodeBronx brand overrides for all custom landing pages */
+.cb-home,
+.cb-services,
+.cb-packages,
+.cb-about,
+.cb-contact {
+  --cb-primary: #8b4dff !important;
+  --cb-primary-dark: #6f35e8 !important;
+  --cb-soft-blue: #f3ecff !important;
+  --cbs-primary: #8b4dff !important;
+  --cbs-primary-dark: #6f35e8 !important;
+  --cbs-soft-blue: #f3ecff !important;
+  --cbp-primary: #8b4dff !important;
+  --cbp-primary-dark: #6f35e8 !important;
+  --cbp-soft-blue: #f3ecff !important;
+  --cba-primary: #8b4dff !important;
+  --cba-primary-dark: #6f35e8 !important;
+  --cba-soft-blue: #f3ecff !important;
+  --cbc-primary: #8b4dff !important;
+  --cbc-primary-dark: #6f35e8 !important;
+  --cbc-soft-blue: #f3ecff !important;
 }
 
-/* Keep intentional dark cards readable */
-.cb-hero-card,
-.cb-method,
-.cb-final-cta {
+.cb-hero,
+.cbs-hero,
+.cbp-hero,
+.cba-hero,
+.cbc-hero {
+  background: radial-gradient(circle at top right, rgba(139, 77, 255, 0.12), transparent 34%), #ffffff !important;
+}
+
+.cb-eyebrow,
+.cbs-eyebrow,
+.cbp-eyebrow,
+.cba-eyebrow,
+.cbc-eyebrow,
+.cb-pill,
+.cbp-badge {
+  background: #f3ecff !important;
+  color: #6f35e8 !important;
+  border-color: #d7c4ff !important;
+}
+
+.cb-button-primary,
+.cbs-btn-primary,
+.cbp-btn-primary,
+.cba-btn-primary,
+.cbc-btn-primary {
+  background: #8b4dff !important;
+  border-color: #8b4dff !important;
   color: #ffffff !important;
 }
 
+.cb-button-secondary,
+.cbs-btn-secondary,
+.cbp-btn-secondary,
+.cba-btn-secondary,
+.cbc-btn-secondary {
+  background: #ffffff !important;
+  border-color: #8b4dff !important;
+  color: #8b4dff !important;
+}
+
+.cb-button-primary:hover,
+.cbs-btn-primary:hover,
+.cbp-btn-primary:hover,
+.cba-btn-primary:hover,
+.cbc-btn-primary:hover {
+  background: #6f35e8 !important;
+  border-color: #6f35e8 !important;
+}
+
+.cb-button-secondary:hover,
+.cbs-btn-secondary:hover,
+.cbp-btn-secondary:hover,
+.cba-btn-secondary:hover,
+.cbc-btn-secondary:hover {
+  background: #f3ecff !important;
+  color: #6f35e8 !important;
+}
+
+.cb-icon,
+.cbs-icon {
+  background: #f3ecff !important;
+}
+
+.cb-kicker,
+.cbs-kicker,
+.cbp-kicker,
+.cba-kicker,
+.cbc-kicker {
+  color: #8b4dff !important;
+}
+
+.cb-final-cta,
+.cbs-final-cta,
+.cbp-final-cta,
+.cba-final-cta,
+.cbc-card-dark,
+.cba-card-dark,
+.cbs-hero-card,
+.cbp-hero-card,
+.cb-hero-card,
+.cbs-method,
+.cbp-why {
+  background: #050505 !important;
+  color: #ffffff !important;
+}
+
+.cb-final-cta,
+.cbs-final-cta,
+.cbp-final-cta,
+.cba-final-cta {
+  border-bottom: 5px solid #8b4dff;
+}
+
+.cb-final-cta p,
+.cbs-final-cta p,
+.cbp-final-cta p,
+.cba-final-cta p,
 .cb-hero-card p,
 .cb-hero-card li,
-.cb-method p,
-.cb-method span,
-.cb-final-cta p {
-  color: #dbeafe !important;
+.cbs-hero-card p,
+.cbs-hero-card li,
+.cbp-hero-card p,
+.cbp-hero-card li,
+.cba-card-dark p,
+.cba-card-dark li,
+.cbc-card-dark p,
+.cbc-card-dark li,
+.cbs-method p,
+.cbs-method span,
+.cbp-why p,
+.cbp-why li {
+  color: #e5e7eb !important;
 }
 
-.cb-method h2,
-.cb-method .cb-kicker,
 .cb-final-cta h2,
-.cb-hero-card h2 {
+.cbs-final-cta h2,
+.cbp-final-cta h2,
+.cba-final-cta h2,
+.cb-hero-card h2,
+.cbs-hero-card h2,
+.cbp-hero-card h2,
+.cba-card-dark h2,
+.cbc-card-dark h2,
+.cbs-method h2,
+.cbp-why h2 {
   color: #ffffff !important;
+}
+
+.cb-card,
+.cbs-card,
+.cbp-card,
+.cba-card,
+.cbc-card,
+.cb-resource {
+  border-color: #e5e7eb !important;
+  box-shadow: 0 10px 28px rgba(5, 5, 5, 0.045) !important;
+}
+
+/* Add a subtle CodeBronx purple accent line to major hero cards */
+.cb-hero,
+.cbs-hero,
+.cbp-hero,
+.cba-hero,
+.cbc-hero {
+  border-bottom: 4px solid #8b4dff !important;
 }
 
 /* Resource cards: remove placeholder-looking feeling */
