@@ -203,6 +203,76 @@ permalink: /
     color: var(--cbh-text);
   }
 
+  .cbh-resource {
+    display: grid;
+    grid-template-columns: minmax(260px, 0.85fr) minmax(0, 1.15fr);
+    gap: 28px;
+    align-items: center;
+    padding: 34px;
+    border: 1px solid var(--cbh-line);
+    border-radius: 28px;
+    background: #fff;
+    box-shadow: var(--cbh-shadow);
+  }
+
+  .cbh-resource-preview {
+    display: block;
+    border-radius: 22px;
+    padding: 18px;
+    background: linear-gradient(135deg, #eff6ff, #ffffff 58%, #dbeafe);
+    border: 1px solid #bfdbfe;
+    box-shadow: 0 18px 38px rgba(15, 23, 42, 0.08);
+    color: inherit !important;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  .cbh-resource-preview:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 24px 52px rgba(15, 23, 42, 0.12);
+  }
+
+  .cbh-slide-thumb {
+    min-height: 220px;
+    border-radius: 16px;
+    background: #0f172a;
+    padding: 22px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cbh-slide-label {
+    display: inline-flex;
+    width: fit-content;
+    border-radius: 999px;
+    padding: 6px 10px;
+    background: rgba(255,255,255,0.12);
+    color: #dbeafe;
+    font-size: 0.78rem;
+    font-weight: 800;
+  }
+
+  .cbh-slide-thumb h3 {
+    margin: 18px 0 10px;
+    color: #fff;
+    font-size: clamp(1.6rem, 3vw, 2.3rem);
+    line-height: 1;
+    letter-spacing: -0.05em;
+  }
+
+  .cbh-slide-thumb p {
+    color: #dbeafe;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .cbh-resource-text p {
+    color: var(--cbh-muted);
+    max-width: 720px;
+    margin: 0 0 22px;
+  }
+
   .cbh-cta {
     margin-top: 72px;
     text-align: center;
@@ -217,7 +287,7 @@ permalink: /
 
   @media (max-width: 920px) {
     .cbh-wrap { width: min(100%, calc(100vw - 32px)); }
-    .cbh-hero { grid-template-columns: 1fr; padding: 32px; }
+    .cbh-hero, .cbh-resource { grid-template-columns: 1fr; padding: 32px; }
     .cbh-grid { grid-template-columns: 1fr; }
   }
 </style>
@@ -275,6 +345,31 @@ permalink: /
         <div class="cbh-card">
           <h3>Implementation Support</h3>
           <p>Support schools with PD, coaching, curriculum design, planning tools, and classroom-ready resources.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cbh-section cbh-resource" id="free-resource">
+      <a class="cbh-resource-preview" href="https://docs.google.com/presentation/d/19dIoFc7hAQN1WvpV5Pn_QCwP0jswpPLVbWDaKqs4StI/edit?usp=sharing" target="_blank" rel="noopener">
+        <div class="cbh-slide-thumb">
+          <div>
+            <span class="cbh-slide-label">Free Resource</span>
+            <h3>AI Thinking Loop</h3>
+            <p>A teacher-facing slide resource for helping students think, use AI, analyze, refine, and justify.</p>
+          </div>
+          <p>Click to open the Google Slides resource →</p>
+        </div>
+      </a>
+
+      <div class="cbh-resource-text">
+        <div class="cbh-kicker">Free classroom resource</div>
+        <h2>Use this resource to introduce practical AI thinking routines.</h2>
+        <p>
+          Start with a ready-to-use Google Slides resource that helps teachers frame AI use as a thinking process, not just a tool shortcut.
+        </p>
+        <div class="cbh-actions">
+          <a class="cbh-btn cbh-btn-primary" href="https://docs.google.com/presentation/d/19dIoFc7hAQN1WvpV5Pn_QCwP0jswpPLVbWDaKqs4StI/edit?usp=sharing" target="_blank" rel="noopener">Open Free Resource</a>
+          <a class="cbh-btn cbh-btn-secondary" href="/services/">See Services</a>
         </div>
       </div>
     </section>
