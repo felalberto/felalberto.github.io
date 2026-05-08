@@ -21,6 +21,21 @@ permalink: /
   .cb-home * { box-sizing: border-box; }
   .cb-home a { text-decoration: none; }
 
+  #breadcrumb,
+  .breadcrumb,
+  .breadcrumb-wrapper,
+  .page-title,
+  .post-title,
+  .dynamic-title,
+  h1.dynamic-title,
+  #page-title,
+  .main-content > h1:first-child,
+  .content > h1:first-child,
+  article > h1:first-child,
+  main h1:first-of-type {
+    display: none !important;
+  }
+
   #panel-wrapper,
   #access-lastmod,
   #access-tags {
