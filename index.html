@@ -1,0 +1,291 @@
+---
+layout: default
+title: ""
+permalink: /
+---
+
+<style>
+  #breadcrumb,
+  .breadcrumb,
+  .page-title,
+  .post-title,
+  .dynamic-title,
+  main h1:first-child,
+  .content h1:first-child {
+    display: none !important;
+  }
+
+  .cb-home {
+    --cbh-primary: #2563eb;
+    --cbh-primary-dark: #1d4ed8;
+    --cbh-text: #0f172a;
+    --cbh-muted: #475569;
+    --cbh-line: #e2e8f0;
+    --cbh-soft-blue: #eff6ff;
+    --cbh-radius: 20px;
+    --cbh-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+    --cbh-page-width: 1120px;
+    color: var(--cbh-text);
+  }
+
+  .cb-home * { box-sizing: border-box; }
+  .cb-home a { text-decoration: none; }
+
+  .cbh-wrap {
+    max-width: var(--cbh-page-width);
+    width: min(var(--cbh-page-width), calc(100vw - 48px));
+    margin: 0 auto;
+  }
+
+  .cbh-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+    gap: 32px;
+    align-items: center;
+    padding: 52px;
+    border: 1px solid var(--cbh-line);
+    border-radius: 28px;
+    background: radial-gradient(circle at top right, rgba(37, 99, 235, 0.11), transparent 34%), #fff;
+    box-shadow: var(--cbh-shadow);
+  }
+
+  .cbh-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 12px;
+    border-radius: 999px;
+    background: var(--cbh-soft-blue);
+    border: 1px solid #bfdbfe;
+    color: var(--cbh-primary-dark);
+    font-size: 0.82rem;
+    font-weight: 800;
+    margin-bottom: 18px;
+  }
+
+  .cbh-hero h1 {
+    margin: 0 0 18px;
+    font-size: clamp(2.7rem, 6vw, 5.2rem);
+    line-height: 0.95;
+    letter-spacing: -0.065em;
+    color: var(--cbh-text);
+    max-width: 720px;
+  }
+
+  .cbh-lead {
+    font-size: 1.08rem;
+    line-height: 1.65;
+    color: var(--cbh-muted);
+    margin: 0 0 24px;
+    max-width: 720px;
+  }
+
+  .cbh-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .cbh-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 12px;
+    padding: 12px 18px;
+    border: 2px solid var(--cbh-primary);
+    font-weight: 900;
+  }
+
+  .cbh-btn-primary { background: var(--cbh-primary); color: #fff !important; }
+  .cbh-btn-secondary { background: #fff; color: var(--cbh-primary) !important; }
+
+  .cbh-card-dark {
+    background: #0f172a;
+    color: #fff;
+    border-radius: 22px;
+    padding: 28px;
+    box-shadow: 0 24px 60px rgba(15, 23, 42, 0.22);
+  }
+
+  .cbh-card-dark h2 {
+    margin: 0 0 14px;
+    color: #fff;
+    font-size: 1.25rem;
+  }
+
+  .cbh-card-dark ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+  }
+
+  .cbh-card-dark li { color: #dbeafe; }
+
+  .cbh-audience {
+    margin-top: 28px;
+    padding: 18px 20px;
+    border: 1px solid var(--cbh-line);
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.05);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .cbh-audience strong {
+    color: var(--cbh-text);
+    margin-right: 4px;
+  }
+
+  .cbh-pill {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    padding: 7px 11px;
+    background: var(--cbh-soft-blue);
+    color: var(--cbh-primary-dark);
+    font-size: 0.78rem;
+    font-weight: 800;
+  }
+
+  .cbh-section {
+    margin-top: 72px;
+  }
+
+  .cbh-section-header {
+    max-width: 780px;
+    margin-bottom: 24px;
+  }
+
+  .cbh-kicker {
+    color: var(--cbh-primary);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.78rem;
+    margin-bottom: 8px;
+  }
+
+  .cbh-section h2,
+  .cbh-cta h2 {
+    margin: 0 0 10px;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    line-height: 1.06;
+    letter-spacing: -0.04em;
+    color: var(--cbh-text);
+  }
+
+  .cbh-section p { color: var(--cbh-muted); margin: 0; }
+
+  .cbh-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .cbh-card {
+    background: #fff;
+    border: 1px solid var(--cbh-line);
+    border-radius: var(--cbh-radius);
+    padding: 26px;
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.05);
+  }
+
+  .cbh-card h3 {
+    margin: 0 0 8px;
+    font-size: 1.2rem;
+    letter-spacing: -0.03em;
+    color: var(--cbh-text);
+  }
+
+  .cbh-cta {
+    margin-top: 72px;
+    text-align: center;
+    padding: 52px;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    border-radius: 28px;
+    box-shadow: var(--cbh-shadow);
+  }
+
+  .cbh-cta h2 { color: #fff; }
+  .cbh-cta p { color: #dbeafe; max-width: 760px; margin: 0 auto 22px; }
+
+  @media (max-width: 920px) {
+    .cbh-wrap { width: min(100%, calc(100vw - 32px)); }
+    .cbh-hero { grid-template-columns: 1fr; padding: 32px; }
+    .cbh-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="cb-home">
+  <div class="cbh-wrap">
+    <section class="cbh-hero">
+      <div>
+        <div class="cbh-eyebrow">Bronx-based • Classroom-ready • AI-era instruction</div>
+        <h1>Practical computing education for K–12 schools.</h1>
+        <p class="cbh-lead">
+          CodeBronx helps schools turn AI literacy and computer science from abstract initiatives into classroom-ready instruction.
+        </p>
+        <div class="cbh-actions">
+          <a class="cbh-btn cbh-btn-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Consultation">📅 Book a Consultation</a>
+          <a class="cbh-btn cbh-btn-secondary" href="/services/">View Services</a>
+        </div>
+      </div>
+
+      <div class="cbh-card-dark">
+        <h2>What we deliver</h2>
+        <ul>
+          <li>✓ Practical professional development</li>
+          <li>✓ AI literacy</li>
+          <li>✓ CT integration</li>
+          <li>✓ Schoolwide implementation</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="cbh-audience">
+      <strong>Working with:</strong>
+      <span class="cbh-pill">Principals</span>
+      <span class="cbh-pill">District Leaders</span>
+      <span class="cbh-pill">Teachers</span>
+      <span class="cbh-pill">Youth Programs</span>
+    </div>
+
+    <section class="cbh-section">
+      <div class="cbh-section-header">
+        <div class="cbh-kicker">What CodeBronx does</div>
+        <h2>Computing education that fits real classrooms.</h2>
+        <p>Practical support for schools that need usable instruction, not another disconnected technology initiative.</p>
+      </div>
+
+      <div class="cbh-grid">
+        <div class="cbh-card">
+          <h3>Computational Thinking</h3>
+          <p>Help teachers integrate decomposition, pattern recognition, abstraction, and algorithmic thinking into core instruction.</p>
+        </div>
+        <div class="cbh-card">
+          <h3>AI Literacy</h3>
+          <p>Build responsible AI routines where students think first, analyze output, verify claims, and explain decisions.</p>
+        </div>
+        <div class="cbh-card">
+          <h3>Implementation Support</h3>
+          <p>Support schools with PD, coaching, curriculum design, planning tools, and classroom-ready resources.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cbh-cta">
+      <h2>Ready to make computing education practical?</h2>
+      <p>Start with a conversation about your school goals, grade bands, current curriculum, and implementation needs.</p>
+      <div class="cbh-actions" style="justify-content:center;">
+        <a class="cbh-btn cbh-btn-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Consultation">📅 Book a Consultation</a>
+        <a class="cbh-btn cbh-btn-secondary" href="/packages/">View Packages</a>
+      </div>
+    </section>
+  </div>
+</div>
