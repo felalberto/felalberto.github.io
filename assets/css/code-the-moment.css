@@ -14,10 +14,10 @@
   --yellow: #fff5d9;
   --shadow: 0 8px 24px rgba(23, 32, 51, .05);
   width: 100%;
-  max-width: 100%;
+  max-width: 1180px;
   margin: 0 auto;
   color: var(--ink);
-  overflow-x: hidden;
+  overflow-x: visible;
 }
 
 .ctm-top {
@@ -51,9 +51,10 @@
   border: 1px solid var(--line);
   border-top: 8px solid var(--green);
   border-radius: 22px;
-  padding: 1.15rem;
+  padding: 1.25rem;
   box-shadow: var(--shadow);
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: visible;
 }
 
 .ctm-sheet.teacher { border-top-color: var(--purple); }
@@ -89,13 +90,18 @@
   font-size: .95rem;
 }
 
-.ctm-sheet h1 { margin: .1rem 0 .35rem; line-height: 1.05; letter-spacing: -.04em; }
+.ctm-sheet h1 {
+  margin: .1rem 0 .35rem;
+  line-height: 1.08;
+  letter-spacing: -.04em;
+}
+
 .ctm-sheet p { color: var(--muted); }
 
-.ctm-grid { display: grid; gap: .85rem; }
-.ctm-grid.two { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-.ctm-grid.three { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
-.ctm-grid.four { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.ctm-grid { display: grid; gap: 1rem; }
+.ctm-grid.two { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.ctm-grid.three { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.ctm-grid.four { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 
 .ctm-note {
   background: var(--blue-soft);
@@ -103,7 +109,8 @@
   border-radius: 16px;
   padding: 1rem;
   margin: .8rem 0;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .ctm-note.green { background: var(--green-soft); border-color: #ccefdc; }
@@ -112,8 +119,9 @@
 
 .ctm-table {
   width: 100%;
-  max-width: 100%;
-  table-layout: fixed;
+  min-width: 760px;
+  max-width: none;
+  table-layout: auto;
   border-collapse: collapse;
   margin: 1rem 0;
   border: 1px solid var(--line);
@@ -122,18 +130,21 @@
 .ctm-table th,
 .ctm-table td {
   border: 1px solid var(--line);
-  padding: .72rem;
+  padding: .85rem .9rem;
   text-align: left;
   vertical-align: top;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
   word-break: normal;
+  hyphens: none;
+  line-height: 1.45;
 }
 
 .ctm-table th {
   background: var(--soft);
-  font-size: .88rem;
+  font-size: .9rem;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: .035em;
+  white-space: normal;
 }
 
 .ctm-table td.blank { height: 92px; }
@@ -145,13 +156,13 @@
   background: #fbfcff;
   border-radius: 14px;
   margin: .75rem 0;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
 }
 
 .ctm-checklist {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: .65rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: .75rem;
   list-style: none;
   padding: 0;
   margin: 1rem 0;
@@ -160,8 +171,8 @@
 .ctm-checklist li {
   border: 1px solid var(--line);
   border-radius: 14px;
-  padding: .75rem;
-  overflow-wrap: anywhere;
+  padding: .85rem;
+  overflow-wrap: normal;
 }
 
 .ctm-box {
@@ -176,7 +187,7 @@
 
 .ctm-storyboard {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1rem;
 }
 
@@ -186,19 +197,18 @@
   border-radius: 18px;
   overflow: hidden;
   background: #fff;
-  break-inside: avoid;
 }
 
 .ctm-story-card h3 {
   background: var(--green-soft);
   margin: 0;
-  padding: .65rem .75rem;
+  padding: .7rem .85rem;
   border-bottom: 1px solid var(--line);
 }
 
 .ctm-draw {
-  min-height: 175px;
-  margin: .75rem;
+  min-height: 190px;
+  margin: .85rem;
   border: 2px dashed #aab3c8;
   border-radius: 14px;
   background: #fff;
@@ -206,212 +216,58 @@
 
 .ctm-story-field {
   display: grid;
-  grid-template-columns: 118px minmax(0, 1fr);
-  min-height: 44px;
+  grid-template-columns: 128px minmax(0, 1fr);
+  min-height: 46px;
   border-top: 1px solid var(--line);
 }
 
 .ctm-story-field strong {
-  padding: .5rem .55rem;
+  padding: .55rem .65rem;
   background: var(--soft);
   border-right: 1px solid var(--line);
   white-space: nowrap;
-  font-size: .82rem;
+  font-size: .88rem;
 }
 
 .ctm-wide-line {
-  min-height: 52px;
+  min-height: 56px;
   border-bottom: 2px solid #b8c0d5;
   color: var(--muted);
   font-weight: 800;
-  margin-top: .75rem;
-  overflow-wrap: anywhere;
+  margin-top: .85rem;
+  overflow-wrap: normal;
 }
 
 .ctm-rubric-print,
 .ctm-flow-print { display: none; }
 
-@media (max-width: 800px) {
+/* Screen-first readability fixes */
+.ctm-landscape,
+.ctm-wide {
+  max-width: 1280px;
+}
+
+.ctm-landscape .ctm-table,
+.ctm-wide .ctm-table {
+  min-width: 980px;
+}
+
+.ctm-rubric-web,
+.ctm-flow-web {
+  display: table;
+}
+
+@media (max-width: 900px) {
   .ctm-head { display: block; }
   .ctm-meta { text-align: left; margin-top: .75rem; }
-  .ctm-table th,
-  .ctm-table td { padding: .6rem; }
-  .ctm-table { font-size: .95rem; }
+  .ctm-sheet { padding: 1rem; }
+  .ctm-table { min-width: 760px; }
+  .ctm-landscape .ctm-table,
+  .ctm-wide .ctm-table { min-width: 900px; }
 }
 
 @media print {
   body { font-size: 11pt !important; }
-
-  .ctm-print-page {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-    overflow: visible !important;
-    color: #111827 !important;
-  }
-
   .ctm-top { display: none !important; }
-
-  .ctm-sheet {
-    box-shadow: none !important;
-    border-radius: 0 !important;
-    padding: .7rem !important;
-    overflow: visible !important;
-  }
-
-  .ctm-head {
-    display: flex !important;
-    padding-bottom: .55rem !important;
-    margin-bottom: .7rem !important;
-  }
-
-  .ctm-sheet h1 {
-    font-size: 18pt !important;
-    margin: 0 0 .25rem !important;
-    line-height: 1.1 !important;
-  }
-
-  .ctm-sheet h3 {
-    font-size: 12pt !important;
-    margin: .45rem 0 .25rem !important;
-  }
-
-  .ctm-sheet p,
-  .ctm-sheet li {
-    font-size: 10.5pt !important;
-    line-height: 1.28 !important;
-  }
-
-  .ctm-tag {
-    font-size: 8.5pt !important;
-    padding: .24rem .45rem !important;
-    margin-bottom: .35rem !important;
-  }
-
-  .ctm-meta {
-    font-size: 9.5pt !important;
-    color: #374151 !important;
-  }
-
-  .ctm-note {
-    padding: .58rem !important;
-    margin: .5rem 0 !important;
-  }
-
-  .ctm-note h3 { margin: .1rem 0 .25rem !important; }
-
-  .ctm-note p,
-  .ctm-note strong {
-    font-size: 10pt !important;
-    line-height: 1.25 !important;
-  }
-
-  .ctm-table {
-    width: 100% !important;
-    max-width: 100% !important;
-    table-layout: fixed !important;
-    margin: .65rem 0 !important;
-  }
-
-  .ctm-table th,
-  .ctm-table td {
-    padding: .45rem !important;
-    font-size: 9.5pt !important;
-    line-height: 1.22 !important;
-    overflow-wrap: break-word !important;
-  }
-
-  .ctm-table th {
-    font-size: 8.8pt !important;
-  }
-
-  .ctm-table td.blank { height: 70px !important; }
-
-  .ctm-frame {
-    min-height: 48px !important;
-    padding: .55rem !important;
-    font-size: 10pt !important;
-  }
-
-  .ctm-checklist {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-    gap: .45rem !important;
-  }
-
-  .ctm-checklist li {
-    padding: .55rem !important;
-    font-size: 10pt !important;
-    line-height: 1.25 !important;
-  }
-
-  .ctm-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
-  .ctm-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
-  .ctm-grid.four { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
-  .ctm-grid { gap: .5rem !important; }
-
-  .ctm-story-card,
-  .ctm-note,
-  tr,
-  .ctm-frame {
-    break-inside: avoid !important;
-    page-break-inside: avoid !important;
-  }
-
-  .ctm-landscape .ctm-table th,
-  .ctm-landscape .ctm-table td {
-    font-size: 9pt !important;
-    padding: .38rem !important;
-  }
-
-  .ctm-storyboard {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-    gap: .55rem !important;
-  }
-
-  .ctm-draw {
-    min-height: 145px !important;
-    margin: .5rem !important;
-  }
-
-  .ctm-story-field {
-    grid-template-columns: 100px 1fr !important;
-    min-height: 36px !important;
-  }
-
-  .ctm-story-field strong {
-    font-size: 9pt !important;
-    padding: .35rem .4rem !important;
-  }
-
-  .ctm-wide-line {
-    min-height: 40px !important;
-    font-size: 10pt !important;
-  }
-
-  .ctm-rubric-web,
-  .ctm-flow-web { display: none !important; }
-
-  .ctm-rubric-print,
-  .ctm-flow-print { display: block !important; }
-
-  .ctm-rubric-card,
-  .ctm-flow-card {
-    border: 1px solid var(--line);
-    padding: .55rem;
-    margin: .45rem 0;
-    break-inside: avoid;
-  }
-
-  .ctm-rubric-card h3,
-  .ctm-flow-card h3 {
-    font-size: 11pt !important;
-    margin: 0 0 .25rem;
-  }
-
-  .ctm-rubric-card p,
-  .ctm-flow-card p {
-    font-size: 9.5pt !important;
-    line-height: 1.24 !important;
-    margin: .12rem 0;
-  }
+  .ctm-sheet { box-shadow: none !important; border-radius: 0 !important; }
 }
