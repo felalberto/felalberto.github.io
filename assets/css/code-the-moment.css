@@ -33,14 +33,18 @@
 .ctm-sheet h1 { margin: .1rem 0 .35rem; line-height: 1.08; letter-spacing: -.04em; }
 .ctm-sheet p { color: var(--muted); }
 
-.ctm-grid { display: grid; gap: 1rem; }
+.ctm-grid { display: grid; gap: .85rem; align-items: start; }
 .ctm-grid.two { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
-.ctm-grid.three { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.ctm-grid.three { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .ctm-grid.four { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 .ctm-note { background: var(--blue-soft); border: 1px solid #cfe0ff; border-radius: 16px; padding: 1rem; margin: .8rem 0; overflow-wrap: break-word; word-break: normal; }
 .ctm-note.green { background: var(--green-soft); border-color: #ccefdc; }
 .ctm-note.yellow { background: var(--yellow); border-color: #ffe5a3; }
 .ctm-note.red { background: #fff0f0; border-color: #ffd2d2; }
+.ctm-grid .ctm-note { margin: 0; padding: .85rem .95rem; align-self: start; min-height: 0; }
+.ctm-grid .ctm-note h3 { margin: 0 0 .35rem; font-size: 1rem; line-height: 1.18; letter-spacing: -.01em; }
+.ctm-grid .ctm-note p { margin: 0; line-height: 1.35; font-size: .95rem; }
+.ctm-grid .ctm-note strong { line-height: 1.35; }
 
 .ctm-table { width: 100% !important; min-width: 0 !important; max-width: 100% !important; table-layout: fixed !important; border-collapse: collapse; margin: 1rem 0; border: 1px solid var(--line); }
 .ctm-table col, .ctm-table colgroup { max-width: 100% !important; }
@@ -54,7 +58,7 @@
 .ctm-checklist li { border: 1px solid var(--line); border-radius: 14px; padding: .85rem; overflow-wrap: break-word; }
 .ctm-box { display: inline-grid; width: 18px; height: 18px; border: 2px solid var(--ink); border-radius: 5px; margin-right: .5rem; vertical-align: -3px; }
 
-.ctm-storyboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; }
+.ctm-storyboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; align-items: start; }
 .ctm-story-card { min-width: 0; border: 2px solid var(--line); border-radius: 18px; overflow: hidden; background: #fff; }
 .ctm-story-card h3 { background: var(--green-soft); margin: 0; padding: .7rem .85rem; border-bottom: 1px solid var(--line); }
 .ctm-draw { min-height: 190px; margin: .85rem; border: 2px dashed #aab3c8; border-radius: 14px; background: #fff; }
