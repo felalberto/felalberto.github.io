@@ -41,10 +41,17 @@
 .ctm-note.green { background: var(--green-soft); border-color: #ccefdc; }
 .ctm-note.yellow { background: var(--yellow); border-color: #ffe5a3; }
 .ctm-note.red { background: #fff0f0; border-color: #ffd2d2; }
-.ctm-grid .ctm-note { margin: 0; padding: .85rem .95rem; align-self: start; min-height: 0; }
-.ctm-grid .ctm-note h3 { margin: 0 0 .35rem; font-size: 1rem; line-height: 1.18; letter-spacing: -.01em; }
-.ctm-grid .ctm-note p { margin: 0; line-height: 1.35; font-size: .95rem; }
+.ctm-grid .ctm-note { margin: 0; padding: .95rem 1rem; align-self: start; min-height: 0; }
+.ctm-grid .ctm-note h3 { margin: 0 0 .4rem; font-size: 1rem; line-height: 1.18; letter-spacing: -.01em; }
+.ctm-grid .ctm-note p { margin: 0; line-height: 1.4; font-size: .95rem; }
 .ctm-grid .ctm-note strong { line-height: 1.35; }
+
+.ctm-chips { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .65rem; }
+.ctm-chip { display: inline-flex; align-items: center; border: 1px solid var(--line); background: #fff; border-radius: 999px; padding: .28rem .6rem; font-size: .82rem; font-weight: 750; line-height: 1.15; color: var(--ink); white-space: nowrap; }
+.ctm-note.green .ctm-chip { border-color: #ccefdc; background: #ffffff; }
+.ctm-chip.blue { border-color: #cfe0ff; background: #f8fbff; }
+.ctm-chip.green { border-color: #ccefdc; background: #f7fffb; }
+.ctm-chip.purple { border-color: #d9d1ff; background: #fbfaff; }
 
 .ctm-table { width: 100% !important; min-width: 0 !important; max-width: 100% !important; table-layout: fixed !important; border-collapse: collapse; margin: 1rem 0; border: 1px solid var(--line); }
 .ctm-table col, .ctm-table colgroup { max-width: 100% !important; }
@@ -113,6 +120,8 @@
   .ctm-table td.blank { min-height: 88px; height: auto; }
   .ctm-storyboard { grid-template-columns: 1fr; }
   .ctm-story-field { grid-template-columns: 116px minmax(0, 1fr); }
+  .ctm-chips { gap: .35rem; }
+  .ctm-chip { white-space: normal; }
 }
 
 @media print {
