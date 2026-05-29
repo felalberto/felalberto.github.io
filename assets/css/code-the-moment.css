@@ -42,9 +42,11 @@
 .ctm-note.yellow { background: var(--yellow); border-color: #ffe5a3; }
 .ctm-note.red { background: #fff0f0; border-color: #ffd2d2; }
 
-.ctm-table { width: 100%; min-width: 0; max-width: 100%; table-layout: fixed; border-collapse: collapse; margin: 1rem 0; border: 1px solid var(--line); }
-.ctm-table th, .ctm-table td { border: 1px solid var(--line); padding: .85rem .9rem; text-align: left; vertical-align: top; overflow-wrap: break-word; word-break: normal; hyphens: auto; line-height: 1.45; }
-.ctm-table th { background: var(--soft); font-size: .9rem; text-transform: uppercase; letter-spacing: .035em; white-space: normal; }
+.ctm-table { width: 100% !important; min-width: 0 !important; max-width: 100% !important; table-layout: fixed !important; border-collapse: collapse; margin: 1rem 0; border: 1px solid var(--line); }
+.ctm-table col, .ctm-table colgroup { max-width: 100% !important; }
+.ctm-table th, .ctm-table td { border: 1px solid var(--line); padding: .85rem .9rem; text-align: left; vertical-align: top; line-height: 1.45; min-width: 0 !important; max-width: 100% !important; white-space: normal !important; overflow-wrap: anywhere !important; word-wrap: break-word !important; word-break: break-word !important; hyphens: auto !important; overflow: hidden; }
+.ctm-table th *, .ctm-table td * { max-width: 100% !important; white-space: normal !important; overflow-wrap: anywhere !important; word-wrap: break-word !important; word-break: break-word !important; }
+.ctm-table th { background: var(--soft); font-size: .9rem; text-transform: uppercase; letter-spacing: .035em; }
 .ctm-table td.blank { height: 92px; }
 
 .ctm-frame { min-height: 58px; padding: .85rem 1rem; border: 1px dashed #9aa6c0; background: #fbfcff; border-radius: 14px; margin: .75rem 0; overflow-wrap: break-word; }
@@ -62,7 +64,7 @@
 
 .ctm-rubric-print, .ctm-flow-print { display: none; }
 .ctm-landscape, .ctm-wide { max-width: 1280px; }
-.ctm-landscape .ctm-table, .ctm-wide .ctm-table { min-width: 0; max-width: 100%; }
+.ctm-landscape .ctm-table, .ctm-wide .ctm-table { min-width: 0 !important; max-width: 100% !important; }
 .ctm-rubric-web, .ctm-flow-web { display: table; }
 
 @media (max-width: 900px) {
@@ -72,13 +74,12 @@
   .ctm-grid.two, .ctm-grid.three, .ctm-grid.four { grid-template-columns: 1fr; }
 }
 
-/* Responsive table cards for tablets and phones */
 @media (max-width: 760px) {
-  .ctm-table, .ctm-table tbody, .ctm-table tr, .ctm-table td { display: block; width: 100%; }
-  .ctm-table { min-width: 0 !important; border: 0; margin: 1rem 0; table-layout: auto; }
+  .ctm-table, .ctm-table tbody, .ctm-table tr, .ctm-table td { display: block; width: 100% !important; }
+  .ctm-table { min-width: 0 !important; border: 0; margin: 1rem 0; table-layout: auto !important; }
   .ctm-table tr:first-child { display: none; }
   .ctm-table tr { border: 1px solid var(--line); border-radius: 16px; background: #fff; padding: .85rem; margin-bottom: .9rem; box-shadow: 0 4px 14px rgba(23,32,51,.04); }
-  .ctm-table td { border: 0; border-bottom: 1px solid #eef1f7; padding: .55rem 0; line-height: 1.45; }
+  .ctm-table td { border: 0; border-bottom: 1px solid #eef1f7; padding: .55rem 0; line-height: 1.45; overflow: visible; }
   .ctm-table td:last-child { border-bottom: 0; }
   .ctm-table td:first-child { font-weight: 900; font-size: 1.05rem; color: var(--ink); padding-top: 0; }
   .ctm-table td:not(:first-child)::before { display: block; font-size: .78rem; font-weight: 900; text-transform: uppercase; letter-spacing: .045em; color: var(--muted); margin-bottom: .18rem; }
