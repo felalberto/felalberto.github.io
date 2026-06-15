@@ -332,7 +332,7 @@ permalink: /
   </div>
 
   <section class="cb-section cb-resource" id="free-resource">
-    <a class="cb-resource-preview" href="https://docs.google.com/presentation/d/19dIoFc7hAQN1WvpV5Pn_QCwP0jswpPLVbWDaKqs4StI/edit?usp=sharing" target="_blank" rel="noopener">
+    <a class="cb-resource-preview" href="https://docs.google.com/presentation/d/1u3i_LsdQAtXTH8gc-G4zuZJsPGkAfEiTNzinsiTG4D8/edit?usp=sharing" target="_blank" rel="noopener">
       <div class="cb-slide-thumb">
         <div>
           <span class="cb-slide-label">Free Resource</span>
