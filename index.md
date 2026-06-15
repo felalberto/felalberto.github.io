@@ -350,7 +350,7 @@ permalink: /
         Use this ready-to-share Google Slides resource to frame AI use as a thinking process, not just a shortcut. It gives teachers and students a simple routine for using AI more thoughtfully.
       </p>
       <div class="cb-cta-row">
-        <a class="cb-button cb-button-primary" href="https://docs.google.com/presentation/d/19dIoFc7hAQN1WvpV5Pn_QCwP0jswpPLVbWDaKqs4StI/edit?usp=sharing" target="_blank" rel="noopener">Open Free Resource</a>
+        <a class="cb-button cb-button-primary" href="https://docs.google.com/presentation/d/1u3i_LsdQAtXTH8gc-G4zuZJsPGkAfEiTNzinsiTG4D8/edit?usp=sharing" target="_blank" rel="noopener">Open Free Resource</a>
         <a class="cb-button cb-button-secondary" href="/services/">See Services</a>
       </div>
     </div>
