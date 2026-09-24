@@ -600,3 +600,8 @@ a {
     gap: 4px;
   }
 }
+
+
+.cb-card-top-year-only {
+  justify-content: flex-end;
+}
