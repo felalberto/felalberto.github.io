@@ -1,25 +1,29 @@
 ---
 layout: page
-title: Home
+title: Work
 permalink: /
 ---
 
 <style>
-  .cb-home {
-    --cb-primary: #2563eb;
-    --cb-primary-dark: #1d4ed8;
-    --cb-text: #0f172a;
-    --cb-muted: #475569;
-    --cb-line: #e2e8f0;
-    --cb-soft-blue: #eff6ff;
-    --cb-soft-gray: #f8fafc;
-    --cb-radius: 20px;
-    --cb-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+  .cb-work-home {
+    --cb-bg: #f4f1ea;
+    --cb-paper: #fffdf8;
+    --cb-text: #171717;
+    --cb-muted: #6f6a62;
+    --cb-line: #d8d2c7;
+    --cb-dark: #171717;
+    --cb-accent: #d64b2a;
     color: var(--cb-text);
+    width: min(1180px, calc(100vw - 48px));
+    margin: 0 auto;
   }
 
-  .cb-home * { box-sizing: border-box; }
-  .cb-home a { text-decoration: none; }
+  .cb-work-home * { box-sizing: border-box; }
+
+  .cb-work-home a {
+    text-decoration: none !important;
+    color: inherit;
+  }
 
   #breadcrumb,
   .breadcrumb,
@@ -29,13 +33,6 @@ permalink: /
   .dynamic-title,
   h1.dynamic-title,
   #page-title,
-  .main-content > h1:first-child,
-  .content > h1:first-child,
-  article > h1:first-child,
-  main h1:first-of-type {
-    display: none !important;
-  }
-
   #panel-wrapper,
   #access-lastmod,
   #access-tags {
@@ -52,352 +49,385 @@ permalink: /
     .content,
     article,
     .post-content {
-      max-width: 1180px !important;
-      width: 1180px !important;
-    }
-
-    .cb-home {
-      width: min(1180px, calc(100vw - 80px));
-      margin-left: auto;
-      margin-right: auto;
+      max-width: none !important;
+      width: auto !important;
     }
   }
 
-  .cb-hero {
-    display: grid;
-    grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.65fr);
-    gap: 34px;
-    align-items: center;
-    padding: 54px;
-    border: 1px solid var(--cb-line);
-    border-radius: 28px;
-    background: radial-gradient(circle at top right, rgba(37, 99, 235, 0.10), transparent 32%), #ffffff;
-    box-shadow: var(--cb-shadow);
-    margin-bottom: 34px;
+  .cb-intro {
+    padding: 72px 0 58px;
+    border-bottom: 1px solid var(--cb-line);
   }
-
-  .cb-eyebrow {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: var(--cb-soft-blue);
-    color: var(--cb-primary-dark);
-    border: 1px solid #bfdbfe;
-    padding: 8px 14px;
-    border-radius: 999px;
-    font-size: 1rem;
-    font-weight: 800;
-    margin-bottom: 22px;
-  }
-
-  .cb-hero h1 {
-    font-size: clamp(2.8rem, 5vw, 5.25rem);
-    line-height: 0.96;
-    letter-spacing: -0.065em;
-    margin: 0 0 22px;
-    color: var(--cb-text);
-  }
-
-  .cb-lead {
-    font-size: 1.38rem;
-    line-height: 1.65;
-    color: var(--cb-muted);
-    max-width: 820px;
-    margin: 0 0 30px;
-  }
-
-  .cb-cta-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
-
-  .cb-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    border-radius: 13px;
-    padding: 14px 22px;
-    font-size: 1.04rem;
-    font-weight: 900;
-    border: 2px solid var(--cb-primary);
-  }
-
-  .cb-button-primary { background: var(--cb-primary); color: #ffffff !important; }
-  .cb-button-secondary { background: #ffffff; color: var(--cb-primary) !important; }
-
-  .cb-hero-card {
-    background: #0f172a;
-    color: #ffffff;
-    border-radius: 22px;
-    padding: 34px;
-    box-shadow: 0 24px 60px rgba(15, 23, 42, 0.20);
-  }
-
-  .cb-hero-card h2 { color: #ffffff; margin: 0 0 18px; font-size: 1.5rem; }
-  .cb-hero-card p, .cb-hero-card li { color: #dbeafe; }
-  .cb-hero-card li { font-size: 1.13rem; line-height: 1.55; }
-  .cb-mini-list { display: grid; gap: 14px; margin: 16px 0 0; padding: 0; list-style: none; }
-
-  .cb-audience-strip {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-items: center;
-    padding: 18px 20px;
-    border: 1px solid var(--cb-line);
-    border-radius: 18px;
-    background: #ffffff;
-    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.04);
-  }
-
-  .cb-audience-strip strong { color: var(--cb-text); margin-right: 4px; }
-
-  .cb-pill {
-    display: inline-flex;
-    align-items: center;
-    border-radius: 999px;
-    padding: 7px 11px;
-    background: var(--cb-soft-blue);
-    color: var(--cb-primary-dark);
-    font-size: 0.88rem;
-    font-weight: 700;
-  }
-
-  .cb-section { margin-top: 56px; }
-  .cb-section-header { margin-bottom: 22px; max-width: 880px; }
 
   .cb-kicker {
-    color: var(--cb-primary);
-    font-weight: 900;
+    margin: 0 0 18px;
+    color: var(--cb-muted);
+    font-size: .76rem;
+    font-weight: 800;
+    letter-spacing: .12em;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 0.78rem;
-    margin-bottom: 8px;
   }
 
-  .cb-section h2,
-  .cb-final-cta h2 {
-    font-size: clamp(1.75rem, 3vw, 2.65rem);
-    line-height: 1.05;
-    letter-spacing: -0.04em;
-    margin: 0 0 10px;
+  .cb-intro h1 {
+    max-width: 980px;
+    margin: 0;
     color: var(--cb-text);
+    font-size: clamp(3rem, 7.5vw, 7.2rem);
+    font-weight: 700;
+    letter-spacing: -.065em;
+    line-height: .92;
   }
 
-  .cb-section p { color: var(--cb-muted); max-width: 860px; margin: 0; }
-
-  .cb-grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
-
-  .cb-card {
-    background: #ffffff;
-    border: 1px solid var(--cb-line);
-    border-radius: var(--cb-radius);
-    padding: 28px;
-    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.05);
+  .cb-intro-copy {
+    max-width: 700px;
+    margin: 34px 0 0;
+    color: var(--cb-muted);
+    font-size: clamp(1.05rem, 1.7vw, 1.35rem);
+    line-height: 1.65;
   }
 
-  .cb-card h3 { margin: 0 0 8px; font-size: 1.16rem; letter-spacing: -0.02em; color: var(--cb-text); }
-  .cb-card p { font-size: 0.98rem; color: var(--cb-muted); margin-bottom: 14px; }
+  .cb-section {
+    padding: 64px 0 82px;
+  }
 
-  .cb-icon {
-    width: 42px;
-    height: 42px;
-    border-radius: 12px;
+  .cb-section-head {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 28px;
+  }
+
+  .cb-section-head h2 {
+    margin: 0;
+    color: var(--cb-text);
+    font-size: clamp(2rem, 4vw, 3.4rem);
+    letter-spacing: -.05em;
+  }
+
+  .cb-archive-link {
+    color: var(--cb-muted) !important;
+    font-size: .95rem;
+    border-bottom: 1px solid var(--cb-muted);
+    padding-bottom: 2px;
+  }
+
+  .cb-project-grid {
     display: grid;
-    place-items: center;
-    margin-bottom: 16px;
-    font-size: 1.25rem;
-    background: var(--cb-soft-blue);
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 18px;
   }
 
-  .cb-resource {
-    display: grid;
-    grid-template-columns: minmax(300px, 0.85fr) minmax(0, 1.15fr);
-    gap: 34px;
-    align-items: center;
-    padding: 42px;
-    border: 1px solid var(--cb-line);
-    border-radius: 28px;
-    background: #ffffff;
-    box-shadow: var(--cb-shadow);
-  }
-
-  .cb-resource-preview {
-    display: block;
-    border-radius: 22px;
-    padding: 18px;
-    background: linear-gradient(135deg, #eff6ff, #ffffff 58%, #dbeafe);
-    border: 1px solid #bfdbfe;
-    box-shadow: 0 18px 38px rgba(15, 23, 42, 0.08);
-    color: inherit !important;
-    transition: transform 180ms ease, box-shadow 180ms ease;
-  }
-
-  .cb-resource-preview:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 24px 52px rgba(15, 23, 42, 0.12);
-  }
-
-  .cb-slide-thumb {
-    min-height: 250px;
-    border-radius: 16px;
-    background: #0f172a;
-    padding: 24px;
-    color: #ffffff;
+  .cb-project-card {
+    grid-column: span 6;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    min-height: 330px;
+    padding: 28px;
+    border: 1px solid var(--cb-line);
+    background: var(--cb-paper);
+    transition: transform .18s ease, border-color .18s ease;
   }
 
-  .cb-slide-label {
-    display: inline-flex;
-    width: fit-content;
-    border-radius: 999px;
-    padding: 6px 10px;
-    background: rgba(255,255,255,0.12);
-    color: #dbeafe;
-    font-size: 0.78rem;
+  .cb-project-card:hover {
+    transform: translateY(-3px);
+    border-color: #a9a095;
+  }
+
+  .cb-project-card.cb-featured {
+    grid-column: span 12;
+    min-height: 430px;
+    padding: clamp(30px, 5vw, 54px);
+    background: var(--cb-dark);
+    color: #fff;
+  }
+
+  .cb-card-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: baseline;
+    margin-bottom: 54px;
+  }
+
+  .cb-project-card.cb-featured .cb-card-top {
+    margin-bottom: 92px;
+  }
+
+  .cb-project-number,
+  .cb-project-date {
+    color: var(--cb-muted);
+    font-size: .74rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+
+  .cb-featured .cb-project-number,
+  .cb-featured .cb-project-date {
+    color: #aaa49c;
+  }
+
+  .cb-project-title {
+    max-width: 760px;
+    margin: 0;
+    color: var(--cb-text);
+    font-size: clamp(1.55rem, 2.5vw, 2.5rem);
+    letter-spacing: -.045em;
+    line-height: 1.05;
+  }
+
+  .cb-featured .cb-project-title {
+    color: #fff;
+    font-size: clamp(2.35rem, 5vw, 5rem);
+    line-height: .98;
+  }
+
+  .cb-project-excerpt {
+    max-width: 700px;
+    margin: 18px 0 0;
+    color: var(--cb-muted);
+    font-size: .98rem;
+    line-height: 1.65;
+  }
+
+  .cb-featured .cb-project-excerpt {
+    color: #d2cec8;
+    font-size: 1.08rem;
+  }
+
+  .cb-card-bottom {
+    margin-top: auto;
+    padding-top: 32px;
+  }
+
+  .cb-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px 14px;
+  }
+
+  .cb-tags span {
+    color: var(--cb-muted);
+    font-size: .73rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+
+  .cb-featured .cb-tags span {
+    color: #aaa49c;
+  }
+
+  .cb-project-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin: -28px -28px 26px;
+    width: calc(100% + 56px);
+    max-width: none;
+  }
+
+  .cb-featured .cb-project-image {
+    margin: -54px -54px 34px;
+    width: calc(100% + 108px);
+  }
+
+  .cb-statement {
+    padding: 86px 0;
+    border-top: 1px solid var(--cb-line);
+  }
+
+  .cb-statement-grid {
+    display: grid;
+    grid-template-columns: minmax(0, .55fr) minmax(0, 1.45fr);
+    gap: 40px;
+  }
+
+  .cb-statement-label {
+    color: var(--cb-muted);
+    font-size: .76rem;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+
+  .cb-statement p {
+    margin: 0;
+    color: var(--cb-text);
+    font-size: clamp(1.7rem, 3.4vw, 3.35rem);
+    line-height: 1.08;
+    letter-spacing: -.045em;
+  }
+
+  .cb-collab {
+    margin: 0 0 54px;
+    padding: clamp(34px, 6vw, 64px);
+    background: var(--cb-accent);
+    color: #111;
+  }
+
+  .cb-collab .cb-kicker {
+    color: rgba(0,0,0,.6);
+  }
+
+  .cb-collab h2 {
+    max-width: 860px;
+    margin: 0;
+    color: #111;
+    font-size: clamp(2.25rem, 5vw, 5rem);
+    line-height: .98;
+    letter-spacing: -.055em;
+  }
+
+  .cb-collab p {
+    max-width: 620px;
+    margin: 26px 0 0;
+    color: rgba(0,0,0,.72);
+    font-size: 1.03rem;
+    line-height: 1.65;
+  }
+
+  .cb-collab-link {
+    display: inline-block;
+    margin-top: 30px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #111;
+    color: #111 !important;
     font-weight: 800;
   }
 
-  .cb-slide-thumb h3 {
-    margin: 18px 0 10px;
-    color: #ffffff;
-    font-size: clamp(1.6rem, 3vw, 2.4rem);
-    line-height: 1;
-    letter-spacing: -0.05em;
-  }
-
-  .cb-slide-thumb p {
-    color: #dbeafe;
-    margin: 0;
-    font-size: 0.95rem;
-  }
-
-  .cb-resource-text p {
+  .cb-note {
+    padding: 0 0 56px;
     color: var(--cb-muted);
-    max-width: 820px;
-    margin: 0 0 22px;
+    font-size: .85rem;
   }
 
-  .cb-final-cta {
-    text-align: center;
-    padding: 58px;
-    background: linear-gradient(135deg, #0f172a, #1e3a8a);
-    color: #ffffff;
-    border-radius: 28px;
-    box-shadow: var(--cb-shadow);
-  }
+  @media (max-width: 820px) {
+    .cb-work-home {
+      width: min(100% - 28px, 1180px);
+    }
 
-  .cb-final-cta h2 { color: #ffffff; }
-  .cb-final-cta p { color: #dbeafe; margin: 0 auto 24px; max-width: 820px; }
+    .cb-intro {
+      padding-top: 48px;
+    }
 
-  .cb-footer { margin-top: 36px; padding-top: 22px; border-top: 1px solid var(--cb-line); color: var(--cb-muted); font-size: 0.95rem; display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; }
+    .cb-section-head {
+      align-items: flex-start;
+      flex-direction: column;
+    }
 
-  @media (max-width: 920px) {
-    .cb-hero, .cb-resource { grid-template-columns: 1fr; padding: 32px; }
-    .cb-grid-3 { grid-template-columns: 1fr; }
+    .cb-project-card,
+    .cb-project-card.cb-featured {
+      grid-column: span 12;
+    }
+
+    .cb-project-card {
+      min-height: 280px;
+    }
+
+    .cb-project-card.cb-featured {
+      min-height: 360px;
+      padding: 30px;
+    }
+
+    .cb-featured .cb-project-image {
+      margin: -30px -30px 28px;
+      width: calc(100% + 60px);
+    }
+
+    .cb-project-card.cb-featured .cb-card-top {
+      margin-bottom: 58px;
+    }
+
+    .cb-statement-grid {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 
-<div class="cb-home">
-  <section class="cb-hero">
-    <div>
-      <div class="cb-eyebrow">Bronx-based • Classroom-ready • AI-era instruction</div>
-      <h1>Practical computing education for K–12 schools.</h1>
-      <p class="cb-lead">
-        CodeBronx helps schools turn AI literacy and computer science from abstract initiatives into classroom-ready instruction.
-      </p>
-      <div class="cb-cta-row">
-        <a class="cb-button cb-button-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Consultation%20Request">📅 Book a Consultation</a>
-        <a class="cb-button cb-button-secondary" href="/services/">View Services</a>
-      </div>
+<div class="cb-work-home">
+
+  <section class="cb-intro">
+    <p class="cb-kicker">CodeBronx / Work in learning + technology</p>
+    <h1>Projects before pitches.</h1>
+    <p class="cb-intro-copy">
+      CodeBronx is a record of work across computing, STEM, AI, curriculum, physical computing,
+      teacher learning, and student-centered design. The focus here is the work itself: what was
+      built, what learners did, and what came from it.
+    </p>
+  </section>
+
+  <section class="cb-section">
+    <div class="cb-section-head">
+      <h2>Selected Work</h2>
+      <a class="cb-archive-link" href="/categories/portfolio/">View full portfolio</a>
     </div>
 
-    <div class="cb-hero-card">
-      <h2>What we deliver</h2>
-      <ul class="cb-mini-list">
-        <li>✓ Practical professional development</li>
-        <li>✓ AI literacy</li>
-        <li>✓ CT integration</li>
-        <li>✓ Schoolwide implementation</li>
-      </ul>
+    <div class="cb-project-grid">
+      {% assign portfolio = site.categories.Portfolio %}
+      {% for post in portfolio limit: 7 %}
+        <a class="cb-project-card {% if forloop.first %}cb-featured{% endif %}" href="{{ post.url | relative_url }}">
+
+          {% if post.image %}
+            <img class="cb-project-image" src="{{ post.image | relative_url }}" alt="">
+          {% endif %}
+
+          <div class="cb-card-top">
+            <span class="cb-project-number">Project {{ forloop.index | prepend: '0' }}</span>
+            <span class="cb-project-date">{{ post.date | date: "%Y" }}</span>
+          </div>
+
+          <div>
+            <h3 class="cb-project-title">{{ post.title }}</h3>
+
+            <p class="cb-project-excerpt">
+              {% if post.description %}
+                {{ post.description }}
+              {% elsif post.excerpt %}
+                {{ post.excerpt | strip_html | strip_newlines | truncate: 220 }}
+              {% else %}
+                Open the project to explore the work, process, and artifacts.
+              {% endif %}
+            </p>
+          </div>
+
+          {% if post.tags %}
+            <div class="cb-card-bottom">
+              <div class="cb-tags">
+                {% for tag in post.tags limit: 4 %}
+                  <span>{{ tag }}</span>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+        </a>
+      {% endfor %}
     </div>
   </section>
 
-  <div class="cb-audience-strip">
-    <strong>Working with:</strong>
-    <span class="cb-pill">Principals</span>
-    <span class="cb-pill">District Leaders</span>
-    <span class="cb-pill">Teachers</span>
-    <span class="cb-pill">Youth Programs</span>
-  </div>
-
-  <section class="cb-section cb-resource" id="free-resource">
-    <a class="cb-resource-preview" href="https://docs.google.com/presentation/d/1u3i_LsdQAtXTH8gc-G4zuZJsPGkAfEiTNzinsiTG4D8/edit?usp=sharing" target="_blank" rel="noopener">
-      <div class="cb-slide-thumb">
-        <div>
-          <span class="cb-slide-label">Free Resource</span>
-          <h3>AI Thinking Loop</h3>
-          <p>A practical slide resource for helping students think, use AI, analyze, refine, and justify.</p>
-        </div>
-        <p>Click to open the Google Slides resource →</p>
-      </div>
-    </a>
-
-    <div class="cb-resource-text">
-      <div class="cb-kicker">Free classroom resource</div>
-      <h2>Introduce practical AI thinking routines.</h2>
+  <section class="cb-statement">
+    <div class="cb-statement-grid">
+      <div class="cb-statement-label">What connects the work</div>
       <p>
-        Use this ready-to-share Google Slides resource to frame AI use as a thinking process, not just a shortcut. It gives teachers and students a simple routine for using AI more thoughtfully.
+        Technology matters most when learners use it to investigate, make, test, explain, and respond
+        to something that matters.
       </p>
-      <div class="cb-cta-row">
-        <a class="cb-button cb-button-primary" href="https://docs.google.com/presentation/d/1u3i_LsdQAtXTH8gc-G4zuZJsPGkAfEiTNzinsiTG4D8/edit?usp=sharing" target="_blank" rel="noopener">Open Free Resource</a>
-        <a class="cb-button cb-button-secondary" href="/services/">See Services</a>
-      </div>
     </div>
   </section>
 
-  <section class="cb-section" id="services">
-    <div class="cb-section-header">
-      <div class="cb-kicker">Start here</div>
-      <h2>Choose the support your school needs most.</h2>
-      <p>Start with one focused entry point: instructional integration, AI literacy, or teacher support.</p>
-    </div>
-
-    <div class="cb-grid-3">
-      <div class="cb-card">
-        <div class="cb-icon">🧠</div>
-        <h3>Integrate CT into Core Instruction</h3>
-        <p>Bring computational thinking into ELA, Math, and STEM without adding another initiative.</p>
-        <a class="cb-button cb-button-secondary" href="/services/">See CT support</a>
-      </div>
-
-      <div class="cb-card">
-        <div class="cb-icon">🤖</div>
-        <h3>Build AI-Ready Classrooms</h3>
-        <p>Help students question AI, verify claims, explain decisions, and use tools responsibly.</p>
-        <a class="cb-button cb-button-secondary" href="/services/">See AI literacy support</a>
-      </div>
-
-      <div class="cb-card">
-        <div class="cb-icon">🛠️</div>
-        <h3>Strengthen Teacher Practice</h3>
-        <p>Give teachers practical PD, coaching, and classroom-ready materials they can use right away.</p>
-        <a class="cb-button cb-button-secondary" href="/packages/">View packages</a>
-      </div>
-    </div>
+  <section class="cb-collab">
+    <p class="cb-kicker">Collaborate</p>
+    <h2>Building something that overlaps with this work?</h2>
+    <p>
+      CodeBronx occasionally collaborates with schools, universities, community organizations,
+      and education teams on curriculum, learning design, emerging technology, and youth-centered STEM work.
+    </p>
+    <a class="cb-collab-link" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Collaboration">Start a conversation →</a>
   </section>
 
-  <section class="cb-section cb-final-cta" id="contact">
-    <h2>Ready to build a stronger computing education system?</h2>
-    <p>Bring CodeBronx into your school, district, or organization to strengthen instruction, build AI literacy, and make computing education practical.</p>
-    <div class="cb-cta-row" style="justify-content:center;">
-      <a class="cb-button cb-button-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Consultation%20Request">📅 Book a Consultation</a>
-      <a class="cb-button cb-button-secondary" href="/contact/">Contact</a>
-    </div>
-  </section>
-
-  <div class="cb-footer">
-    <div>© CodeBronx / Felix Alberto</div>
-    <div><a href="mailto:felalberto@gmail.com">felalberto@gmail.com</a> · <a href="https://www.linkedin.com/in/felix-alberto-78763a36/">LinkedIn</a> · <a href="https://github.com/felalberto">GitHub</a></div>
+  <div class="cb-note">
+    Project photography and artifacts will be added from original CodeBronx and partner work only.
   </div>
+
 </div>
