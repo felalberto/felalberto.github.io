@@ -1,28 +1,42 @@
 ---
 layout: project
-title: "Physical Computing Curriculum Design (Grades 3–5)"
+title: "Physical Computing Curriculum, Grades 3–5"
 date: 2024-01-11 10:00:00 +0000
 categories: [Portfolio]
 tags: [microbit, curriculum design, physical computing]
-excerpt: "Developed a 5-unit micro:bit curriculum integrating physical computing, creative storytelling, and game development for Grades 3–5."
+description: "A five-unit micro:bit curriculum that moves students from imaginative device design to storytelling, sound, multiplayer games, and technical documentation."
 ---
 
-## 🧠 Overview
+## Context
 
-This project involved designing a **5-unit project-based computing curriculum** for upper elementary grades (3–5) that introduces students to physical computing through the **micro:bit**.
+This project addressed a practical question: how can upper elementary students learn physical computing in a way that feels creative, structured, and connected to work they already understand? The result was a five-unit project-based curriculum for Grades 3–5 using the micro:bit.
 
-The curriculum focused on creativity, problem-solving, and user-centered design. Each unit scaffolded technical skills and computational thinking concepts while supporting classroom integration across literacy, SEL, and STEM.
-
----
-
-## 🔧 My Role
+## My Role
 
 **Lead Curriculum Designer and Standards-Aligned Content Developer**
 
-- Developed unit goals, essential questions, rubrics, and activities
-- Designed student handouts, code samples, and unplugged warm-ups
-- Wrote assessment tasks aligned to NYC’s CS4All standards
-- Iteratively tested and revised materials with teacher feedback
+I designed the unit goals, essential questions, assessments, activities, student materials, code examples, and planning supports, then revised the curriculum using teacher feedback.
+
+## What We Built
+
+- Five connected physical computing units
+- Student planning and reflection tools
+- Rubrics and assessment tasks
+- MakeCode examples and remixable projects
+- Debugging challenges and unplugged warm-ups
+- Teacher-facing implementation materials
+
+## What Learners Did
+
+Students designed imaginative devices, created LED-based stories, explored sound, built multiplayer radio games, debugged code, and produced tutorials explaining how their projects worked.
+
+## Artifacts
+
+The curriculum included full unit sequences, student handouts, planning templates, debugging cards, code examples, and MakeCode project files.
+
+## Outcome
+
+The curriculum was piloted in classrooms, where students showed strong engagement and teachers reported greater confidence teaching computer science. Materials from the work were later published through the CS4All Blueprint and adapted for other grade bands.
 
 ---
 
