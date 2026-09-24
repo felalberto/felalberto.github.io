@@ -4,23 +4,43 @@ title: "AI Thinking Loop: Teaching Students to Think With AI"
 date: 2026-06-15 12:00:00 -0500
 categories: [Portfolio]
 tags: [ai-literacy, computational-thinking, professional-learning, curriculum-design, teacher-pd]
-description: "A CodeBronx professional learning design that helps teachers redesign assignments so students use AI to extend thinking, not replace it."
+description: "A professional learning design that helps teachers redesign assignments so students use AI to extend thinking rather than replace it."
 ---
 
-## Project Overview
+## Context
 
-The **AI Thinking Loop** is a CodeBronx professional learning experience that helps educators make student thinking visible before, during, and after AI use.
+AI can make polished student work easier to produce while making the thinking behind that work harder to see. The AI Thinking Loop was designed as a practical professional learning experience for educators who want students to use AI without surrendering analysis, revision, judgment, or explanation.
 
-This portfolio artifact includes a 90-minute teacher-facing professional development slide deck and a facilitator guide. Together, they support educators in redesigning classroom tasks so AI becomes part of a visible thinking process rather than a shortcut to a polished final product.
+## My Role
 
-The core message is simple:
+**Learning Experience and Professional Development Designer**
 
-> Use AI to extend thinking, not replace it.
+I developed the five-stage instructional routine, the 90-minute professional learning sequence, the facilitator guide, teacher experience, redesign protocol, and supporting examples.
 
-## View the Artifacts
+## What We Built
+
+- Five-stage AI Thinking Loop
+- 90-minute professional learning session
+- Facilitator guide
+- Teacher-facing slide deck
+- Assignment redesign protocol
+- Student evidence examples
+- Classroom implementation commitment structure
+
+## What Learners Did
+
+Teachers experienced the loop as learners, analyzed what the process made visible, and redesigned an existing classroom task. The student-facing routine asks learners to **Think First, Use AI, Analyze, Refine, and Justify**.
+
+## Artifacts
 
 - [Facilitator Guide](https://docs.google.com/document/d/1OfkYNv4UqdiOUpaagDAVULS1FZSYYTbyva-muPaR56U/edit?tab=t.0)
 - [Professional Development Slide Deck](https://docs.google.com/presentation/d/1J2XWaWfXwHz7lRS58PMLkFxIEh2YnrunYODQfHwCe0g/edit?slide=id.p1#slide=id.p1)
+
+## Outcome
+
+The design shifts attention away from whether students used AI and toward the evidence of what they thought, questioned, changed, and can defend.
+
+---
 
 ## The Instructional Problem
 
