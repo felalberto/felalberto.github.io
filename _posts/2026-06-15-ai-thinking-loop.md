@@ -1,4 +1,5 @@
 ---
+layout: project
 title: "AI Thinking Loop: Teaching Students to Think With AI"
 date: 2026-06-15 12:00:00 -0500
 categories: [Portfolio]
