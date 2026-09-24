@@ -7,11 +7,9 @@ permalink: /
 <div class="site-shell">
   <section class="cb-intro">
     <p class="cb-kicker">CodeBronx / Work in learning + technology</p>
-    <h1>Projects before pitches.</h1>
+    <h1>Learning Through Technology</h1>
     <p class="cb-intro-copy">
-      CodeBronx is a record of work across computing, STEM, AI, curriculum, physical computing,
-      teacher learning, and student-centered design. The focus here is the work itself: what was
-      built, what learners did, and what came from it.
+      CodeBronx explores how learners build an understanding of technology, how different tools and systems work, and how that knowledge can be applied to create, design, and solve problems.
     </p>
   </section>
 
