@@ -1,28 +1,41 @@
 ---
 layout: project
-title: "Implementing Computer Science Through Digital Storytelling"
+title: "Computer Science Through Digital Storytelling"
 date: 2024-01-10 10:00:00 +0000
 categories: [Portfolio]
 tags: [instructional design, storytelling, scratch, PD]
-excerpt: "Designed and led a 3-day PD series integrating CS and ELA using digital storytelling. Teachers created animated Scratch narratives from written stories."
+description: "A three-day professional learning experience that helped elementary educators connect narrative writing, computational thinking, and Scratch."
 ---
 
-## 🧠 Overview
+## Context
 
-This professional development series was part of NYC’s **CS4All initiative**, and designed to support elementary educators in integrating **digital storytelling** with **computational thinking** and **coding in Scratch**.
+This three-day professional learning experience was developed through NYC's CS4All initiative to help elementary educators connect narrative writing with computational thinking and Scratch. Teachers moved from written stories to interactive digital narratives while keeping ELA goals visible throughout the process.
 
-I co-designed and facilitated a 3-day experience during mid-winter recess that guided teachers through the process of turning written narratives into interactive digital projects — all while aligning to CS and ELA standards.
-
----
-
-## 🔧 My Role
+## My Role
 
 **Instructional Designer, Facilitator, and Content Creator**
 
-- Designed the workshop flow using the **ADDIE model**
-- Co-developed the entire slide deck, demo projects, and handouts
-- Modeled live code-alongs and storytelling breakdowns
-- Facilitated teacher collaboration in Zoom breakouts and Padlet/Wakelet shares
+I helped design the learning sequence, co-developed the slide deck and materials, modeled live code-alongs, and facilitated teacher collaboration and project development.
+
+## What We Built
+
+- Three-day professional learning sequence
+- Facilitator slide deck
+- Scratch demonstrations and code-alongs
+- Story planning and storyboarding tools
+- Teacher handouts and implementation supports
+
+## What Learners Did
+
+Teachers deconstructed stories, planned scenes and actions, built Scratch narratives, used loops, conditionals, and broadcasts, and considered how the work could fit into their own narrative writing instruction.
+
+## Artifacts
+
+The project included story planning templates, Scratch starter-code demonstrations, a Wakelet project gallery, and facilitator materials used throughout the three-day experience.
+
+## Outcome
+
+Teachers completed Scratch story prototypes and left with classroom-ready materials they could adapt for literacy instruction. The project also created a concrete bridge between narrative writing and introductory computer science.
 
 ---
 
