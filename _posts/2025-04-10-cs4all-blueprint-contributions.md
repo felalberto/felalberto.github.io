@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "CS4All Blueprint Resource Contributions"
 date: 2025-04-10 12:00:00 +0000
 categories: [Portfolio]
