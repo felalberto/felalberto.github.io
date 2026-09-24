@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "CT + ELA Byte-Sized Integration Guide"
 date: 2025-04-11 14:00:00 +0000
 categories: [Portfolio]
