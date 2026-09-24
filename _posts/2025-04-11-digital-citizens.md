@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Digital Citizens Pathway – TR@TC Global Citizens Project"
 date: 2025-04-11 12:00:00 +0000
 categories: [Portfolio]
