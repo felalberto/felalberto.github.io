@@ -1,4 +1,5 @@
 ---
+description: "A standards-based instructional design framework for using AI to support lesson development while keeping computational thinking and teacher judgment visible."
 layout: project
 title: "Computational Thinking + AI Workflow"
 date: 2026-03-25
@@ -7,8 +8,36 @@ tags: [Computational Thinking, AI, Education]
 pin: true
 ---
 
-# 🧠 Computational Thinking + AI Workflow  
-## 📘 A Framework for Educators
+## Context
+
+AI can speed up lesson planning, but fast generation does not guarantee strong instruction. This framework was designed to give educators a structured way to use AI while keeping standards alignment, computational thinking, classroom constraints, and teacher judgment at the center.
+
+## My Role
+
+**Framework Designer and Instructional Designer**
+
+I developed the workflow, design constraints, standards-alignment structure, assessment logic, worked example, and implementation model.
+
+## What We Built
+
+- Standards-based instructional design cycle
+- Seven-step CT + AI planning workflow
+- Design constraints for alignment, accessibility, time, and cognitive demand
+- Teacher review points for evaluating AI-generated materials
+- Assessment guidance for both content mastery and computational thinking
+- Worked classroom example and supporting presentation
+
+## What Learners Did
+
+Educators use the framework to define an academic objective, identify a meaningful CT connection, generate options with AI, evaluate those options, refine them for classroom use, and produce student-facing materials. Students then complete tasks where computational thinking is visible in the work itself.
+
+## Artifacts
+
+The full framework appears below, including standards examples, design requirements, a Grade 2 ELA worked example, implementation guidance, and a supporting presentation.
+
+## Outcome
+
+The framework establishes a repeatable planning process in which AI supports production and variation, while educators retain responsibility for instructional quality, alignment, and final decisions.
 
 ---
 
