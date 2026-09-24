@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Implementing Computer Science Through Digital Storytelling"
 date: 2024-01-10 10:00:00 +0000
 categories: [Portfolio]
