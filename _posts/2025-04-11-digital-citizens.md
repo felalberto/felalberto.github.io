@@ -1,30 +1,42 @@
 ---
 layout: project
-title: "Digital Citizens Pathway – TR@TC Global Citizens Project"
+title: "Digital Citizens: Community Problem Solving Through STEM"
 date: 2025-04-11 12:00:00 +0000
 categories: [Portfolio]
 tags: [TR@TC, interdisciplinary, design thinking, computer science, community engagement]
-excerpt: "Urban problem-solving meets interdisciplinary education: a TR@TC initiative combining CS, Life Science, and ELA to support student innovation through real-world challenges."
+description: "A Teachers College partnership where students investigated community and environmental problems, then used research, design thinking, data, and technology to prototype responses."
 ---
 
-## 🧠 Overview
+## Context
 
-The **Digital Citizens Pathway** was developed in collaboration with **Teachers College, Columbia University** through the **TR@TC Global Citizens initiative**. Originally launched during the pivot to virtual learning in 2020, the program has evolved into a rich, in-person learning experience where students engage in civic and environmental problem-solving through interdisciplinary study.
+Developed with Teachers College, Columbia University through the TR@TC Global Citizens initiative, this work connected computer science, life science, ELA, and design thinking around real community and environmental questions. Students investigated issues such as noise pollution, green space access, environmental justice, and challenges connected to local parks.
 
-Participants investigate real issues in their communities—such as **noise pollution**, **green space access**, and **environmental justice**—and use **data, digital tools, and design thinking** to prototype creative and impactful solutions.
+## My Role
 
----
+**Curriculum Designer, Site Director, and Instructional Support**
 
-## 🔧 My Role
+I helped design and scaffold the four-week learning experience, connect standards across disciplines, support field-based inquiry and prototyping, coach educators, and coordinate the learning experience with Teachers College faculty and instructional leads.
 
-**Curriculum Designer, Site Director, and Instructional Support**  
-in partnership with **Teachers College, Columbia University**
+## What We Built
 
-- Designed and scaffolded a 4-week summer learning experience  
-- Integrated ELA, Life Science, and CS/CT standards across daily activities  
-- Supported facilitation of field visits, design thinking cycles, and solution prototyping  
-- Coached educators and aligned project rubrics with equity-focused goals  
-- Partnered with TC faculty and instructional leads to support student-centered implementation
+- Four-week interdisciplinary learning sequence
+- Field investigation and research activities
+- Design thinking routines and prototyping cycles
+- Cross-disciplinary curriculum connecting ELA, life science, CS, and CT
+- Student presentation and showcase structures
+- Rubrics and educator supports
+
+## What Learners Did
+
+Students documented local conditions, interviewed people, gathered information, framed problems, generated ideas, and built responses using tools that included sensors, websites, physical computing, VR, 3D mockups, and advocacy materials.
+
+## Artifacts
+
+Student work included noise-monitoring concepts, advocacy websites, VR and 3D representations of redesigned spaces, community resource maps, physical prototypes, and public presentations.
+
+## Outcome
+
+Students presented their work through community showcases. Participants earned SYEP stipends, some received school credit, and educators carried interdisciplinary and computational thinking routines into later instruction.
 
 ---
 
