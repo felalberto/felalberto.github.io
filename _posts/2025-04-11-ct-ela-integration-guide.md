@@ -4,25 +4,37 @@ title: "CT + ELA Byte-Sized Integration Guide"
 date: 2025-04-11 14:00:00 +0000
 categories: [Portfolio]
 tags: [computational thinking, literacy, curriculum design, NYC schools, Cornell Tech]
-excerpt: "Designed for Cornell Tech, this guide helps NYC teachers integrate CT into ELA instruction without sacrificing literacy time — a practical tool for balancing academic priorities."
+description: "A Cornell Tech resource that helps teachers connect computational thinking to everyday literacy instruction without turning ELA into a separate coding block."
 ---
 
-## 🧠 Overview
+## Context
 
-This **CT + ELA Byte-Sized Integration Guide** was created for **Cornell Tech** to support NYC teachers in embedding **Computational Thinking (CT)** practices into daily ELA instruction.
+Schools often face pressure to protect ELA and Math instructional time, which can push computer science and computational thinking to the side. This guide was created for Cornell Tech to help NYC educators recognize and intentionally use computational thinking inside literacy instruction without requiring a separate coding lesson.
 
-As schools face mounting pressure to prioritize ELA and Math proficiency, there’s a real risk that computer science instruction — particularly CT — gets deprioritized. This guide offers a **lightweight, flexible framework** that keeps CT active during literacy blocks, without requiring full coding lessons or tech-heavy setups.
+## My Role
 
----
+**Curriculum Designer**
 
-## 🔧 My Role
+I developed the guide's structure, mapped computational thinking concepts to common literacy practices, created classroom examples, and refined the resource through educator feedback and school-based use.
 
-**Curriculum Designer** for Cornell Tech
+## What We Built
 
-- Designed the overall concept and structure of the integration guide  
-- Aligned CT concepts with key literacy practices to ensure relevance and usability  
-- Created examples that are adaptable, standards-aligned, and grounded in classroom realities  
-- Piloted and refined the guide based on educator feedback and use across NYC schools
+- A lightweight CT and ELA integration framework
+- Classroom examples for decomposition, pattern recognition, abstraction, and algorithms
+- Teacher-facing explanations of where CT already appears in literacy work
+- Adaptable examples designed for use across grade levels
+
+## What Learners Did
+
+Teachers connected familiar literacy moves to computational thinking. For example, summarizing became an opportunity to practice abstraction, sequencing events supported algorithmic thinking, and breaking a writing task into stages supported decomposition.
+
+## Artifacts
+
+The primary artifact is the CT + ELA Byte-Sized Integration Guide embedded below and used in professional learning, coaching, and classroom support.
+
+## Outcome
+
+The guide has been distributed through Cornell Tech educational initiatives and used to help teachers keep computational thinking visible while maintaining the focus on literacy goals.
 
 ---
 
