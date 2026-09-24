@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Physical Computing Curriculum Design (Grades 3–5)"
 date: 2024-01-11 10:00:00 +0000
 categories: [Portfolio]
