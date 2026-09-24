@@ -29,8 +29,7 @@ permalink: /
             <img class="cb-project-image" src="{{ post.image | relative_url }}" alt="">
           {% endif %}
 
-          <div class="cb-card-top">
-            <span class="cb-project-number">Project {{ forloop.index | prepend: '0' }}</span>
+          <div class="cb-card-top cb-card-top-year-only">
             <span class="cb-project-date">{{ post.date | date: "%Y" }}</span>
           </div>
 
