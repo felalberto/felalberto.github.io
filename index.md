@@ -64,8 +64,7 @@ permalink: /
     <div class="cb-statement-grid">
       <div class="cb-statement-label">What connects the work</div>
       <p>
-        Technology matters most when learners use it to investigate, make, test, explain, and respond
-        to something that matters.
+        The work helps learners understand a range of technologies and explore how those tools can be applied to create meaningful solutions.
       </p>
     </div>
   </section>
