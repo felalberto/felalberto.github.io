@@ -306,7 +306,7 @@ order: 2
         The structure is flexible, but the goal stays the same: build computing education that teachers can actually use.
       </p>
       <div class="cbp-cta-row">
-        <a class="cbp-btn cbp-btn-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Package%20Inquiry">📅 Book a Consultation</a>
+        <a class="cbp-btn cbp-btn-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Package%20Inquiry">Book a Consultation</a>
         <a class="cbp-btn cbp-btn-secondary" href="/services/">View Services</a>
       </div>
     </div>
@@ -462,7 +462,7 @@ order: 2
       timeline, audience, and implementation capacity.
     </p>
     <div class="cbp-cta-row" style="justify-content:center;">
-      <a class="cbp-btn cbp-btn-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Package%20Inquiry">📅 Book a Consultation</a>
+      <a class="cbp-btn cbp-btn-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Package%20Inquiry">Book a Consultation</a>
       <a class="cbp-btn cbp-btn-secondary" href="/services/">View Services</a>
     </div>
   </section>
