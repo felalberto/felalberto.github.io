@@ -35,7 +35,7 @@ The project included story planning templates, Scratch starter-code demonstratio
 
 ## Outcome
 
-Teachers completed Scratch story prototypes and left with classroom-ready materials they could adapt for literacy instruction. The project also created a concrete bridge between narrative writing and introductory computer science.
+Teachers completed Scratch story prototypes and left with classroom-ready materials they could adapt for literacy instruction. Many participants adapted the work to their narrative writing blocks, and feedback highlighted the pacing, modeling, and access to planning templates.
 
 ---
 
@@ -68,23 +68,6 @@ Teachers completed Scratch story prototypes and left with classroom-ready materi
 - **Padlet & Wakelet** (collaborative boards for reflection & drafts)
 - **Zoom** (live facilitation, code-alongs, breakout discussions)
 - **Bit.ly** (shortlink access to materials)
-
----
-
-## Evidence and Takeaways
-
-- Teachers left with a completed Scratch story prototype and classroom-ready materials
-- Many participants adapted the unit to their narrative writing blocks
-- Received positive feedback for the modeling pace, access to templates, and integration of SEL through storytelling
-
----
-
-## Artifact Examples
-
--  Story planning template (with character + scene map)
--  Scratch block breakdown and “starter code” demo
--  Wakelet project gallery for peer showcase
--  Facilitator slide decks with meme-based icebreakers, direct instruction, and visuals
 
 ---
 
