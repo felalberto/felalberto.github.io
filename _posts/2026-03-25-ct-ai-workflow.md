@@ -319,7 +319,7 @@ Students will break a story into key events and sequence them to explain how a c
 - Support refinement
 - Produce instructional materials
 
-### ‍ Teacher Responsibilities
+### Teacher Responsibilities
 
 - Ensure standards alignment
 - Make instructional decisions
