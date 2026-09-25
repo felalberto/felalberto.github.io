@@ -39,29 +39,29 @@ Teachers completed Scratch story prototypes and left with classroom-ready materi
 
 ---
 
-## 🧭 Structure of the 3-Day PD
+## Structure of the 3-Day PD
 
-### 🟡 Day 1: Introduction to Digital Storytelling & Scratch  
-- Defined key concepts of digital storytelling and computational thinking  
-- Deconstructed a model story (“The Fish and the Cat”)  
-- Introduced core Scratch elements (sprites, backgrounds, blocks)  
-- Practiced decomposing stories into scenes and actions  
+### Day 1: Introduction to Digital Storytelling & Scratch
+- Defined key concepts of digital storytelling and computational thinking
+- Deconstructed a model story (“The Fish and the Cat”)
+- Introduced core Scratch elements (sprites, backgrounds, blocks)
+- Practiced decomposing stories into scenes and actions
 
-### 🟢 Day 2: Storyboarding, Coding & Collaboration  
-- Used planning templates to storyboard scenes and identify key actions  
-- Led a “code-along” building the first scene with motion, dialogue, and timing  
-- Supported participants in breakout rooms for peer feedback  
-- Curated teacher drafts in Wakelet for discussion  
+### Day 2: Storyboarding, Coding & Collaboration
+- Used planning templates to storyboard scenes and identify key actions
+- Led a “code-along” building the first scene with motion, dialogue, and timing
+- Supported participants in breakout rooms for peer feedback
+- Curated teacher drafts in Wakelet for discussion
 
-### 🔵 Day 3: Extensions & Classroom Implementation  
-- Explored Scratch features like loops, conditionals, and broadcasts  
-- Modeled how to scaffold student use of planning sheets  
-- Facilitated conversation about standards alignment and classroom rollout  
-- Collected final share-outs and feedback  
+### Day 3: Extensions & Classroom Implementation
+- Explored Scratch features like loops, conditionals, and broadcasts
+- Modeled how to scaffold student use of planning sheets
+- Facilitated conversation about standards alignment and classroom rollout
+- Collected final share-outs and feedback
 
 ---
 
-## 🧰 Tools & Platforms Used
+## Tools & Platforms Used
 
 - **Scratch** (student projects and facilitator demo)
 - **Google Slides** (visuals, instruction flow)
@@ -71,7 +71,7 @@ Teachers completed Scratch story prototypes and left with classroom-ready materi
 
 ---
 
-## 🎯 Outcomes
+## Evidence and Takeaways
 
 - Teachers left with a completed Scratch story prototype and classroom-ready materials
 - Many participants adapted the unit to their narrative writing blocks
@@ -79,16 +79,16 @@ Teachers completed Scratch story prototypes and left with classroom-ready materi
 
 ---
 
-## 📁 Sample Deliverables (Redacted for Privacy)
+## Artifact Examples
 
-- 🎨 Story planning template (with character + scene map)
-- 🧩 Scratch block breakdown and “starter code” demo
-- 🗂 Wakelet project gallery for peer showcase
-- 🗣 Facilitator slide decks with meme-based icebreakers, direct instruction, and visuals
+-  Story planning template (with character + scene map)
+-  Scratch block breakdown and “starter code” demo
+-  Wakelet project gallery for peer showcase
+-  Facilitator slide decks with meme-based icebreakers, direct instruction, and visuals
 
 ---
 
-## 💬 Reflection
+## Reflection
 
 This project showcased how **code can be a canvas for creative expression**. By positioning students as storytellers *and* programmers, we built confidence in teachers who previously saw CS as inaccessible.
 
