@@ -9,8 +9,7 @@ permalink: /work/
     <p class="cb-kicker">Archive</p>
     <h1>The work, in one place.</h1>
     <p>
-      Projects, frameworks, curriculum, professional learning, and student-centered technology work.
-      This archive is built from the existing CodeBronx Portfolio collection.
+      Projects, curriculum, professional learning, AI, physical computing, and student-centered technology work.
     </p>
   </section>
 
