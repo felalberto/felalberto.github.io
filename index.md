@@ -9,7 +9,7 @@ permalink: /
     <p class="cb-kicker">CodeBronx / Work in learning + technology</p>
     <h1>Learning Through Technology</h1>
     <p class="cb-intro-copy">
-      CodeBronx explores how learners build an understanding of technology, how different tools and systems work, and how that knowledge can be applied to create, design, and solve problems.
+      CodeBronx documents how students and educators learn technology by using it: coding, building devices, experimenting with AI, prototyping ideas, and solving problems.
     </p>
   </section>
 
@@ -22,7 +22,8 @@ permalink: /
     <div class="cb-project-grid">
       {% assign portfolio = site.categories.Portfolio %}
       {% for post in portfolio limit: 7 %}
-        <a class="cb-project-card {% if forloop.first %}cb-featured{% endif %}" href="{{ post.url | relative_url }}">
+        {% capture card_class %}{% case forloop.index %}{% when 1 %}cb-featured{% when 2 %}cb-wide{% when 3 %}cb-narrow{% when 4 %}cb-editorial{% when 5 %}cb-narrow{% when 6 %}cb-wide{% when 7 %}cb-editorial{% endcase %}{% endcapture %}
+        <a class="cb-project-card {{ card_class | strip }}" href="{{ post.url | relative_url }}">
           {% if post.image %}
             <img class="cb-project-image" src="{{ post.image | relative_url }}" alt="">
           {% endif %}
@@ -62,7 +63,7 @@ permalink: /
     <div class="cb-statement-grid">
       <div class="cb-statement-label">What connects the work</div>
       <p>
-        The work helps learners understand a range of technologies and explore how those tools can be applied to create meaningful solutions.
+        Across the projects, the idea is consistent: understand the technology, experiment with it, and figure out what you can make or solve with it.
       </p>
     </div>
   </section>
@@ -71,13 +72,9 @@ permalink: /
     <p class="cb-kicker">Collaborate</p>
     <h2>Building something that overlaps with this work?</h2>
     <p>
-      CodeBronx occasionally collaborates with schools, universities, community organizations,
-      and education teams on curriculum, learning design, emerging technology, and youth-centered STEM work.
+      CodeBronx occasionally works with schools, universities, community organizations,
+      and education teams on curriculum, STEM learning, AI, physical computing, and projects that give young people something real to build or investigate.
     </p>
     <a class="cb-collab-link" href="{{ '/collaborate/' | relative_url }}">Start a conversation →</a>
   </section>
-
-  <div class="cb-note">
-    Project photography and artifacts will be added from original CodeBronx and partner work only.
-  </div>
 </div>
