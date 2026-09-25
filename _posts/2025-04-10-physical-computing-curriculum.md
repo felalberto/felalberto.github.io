@@ -36,7 +36,7 @@ The curriculum included full unit sequences, student handouts, planning template
 
 ## Outcome
 
-The curriculum was piloted in classrooms, where students showed strong engagement and teachers reported greater confidence teaching computer science. Materials from the work were later published through the CS4All Blueprint and adapted for other grade bands.
+The curriculum was piloted across multiple classrooms, where students showed strong engagement and ownership and teachers reported greater confidence teaching computer science without prior experience. Materials from the work were later published through the CS4All Blueprint and adapted for other grade bands.
 
 ---
 
@@ -84,23 +84,6 @@ The curriculum was piloted in classrooms, where students showed strong engagemen
   - Decomposition
   - Debugging
 - Mapped to **Next Generation ELA** and **Math Practices** (e.g., modeling, attending to precision)
-
----
-
-## Pilot Results
-
-- Piloted with multiple classrooms; students showed strong engagement and ownership
-- Teachers reported improved confidence teaching CS without prior experience
-- Materials published through CS4All Blueprint and adapted for other grade bands
-
----
-
-## Artifact Examples
-
--  Full unit overviews and lesson sequences
--  Planning and reflection templates for students
--  Debugging challenge cards
--  MakeCode demo files and remixable projects
 
 ---
 
