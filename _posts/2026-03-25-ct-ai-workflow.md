@@ -390,7 +390,7 @@ It is designed to improve clarity, alignment, and instructional effectiveness wh
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQNiS-HZVF8oz9htm1cLOdTuU2ImYHPGC_v-Y9XRaNrzofuomtOFI7mOmKlEfkteAdGpa2vWtmiFLO7/pubembed?start=false&loop=false&delayms=3000"
 width="100%"
-height="1949"
+height="975"
 frameborder="0"
 allowfullscreen="true">
 </iframe>
