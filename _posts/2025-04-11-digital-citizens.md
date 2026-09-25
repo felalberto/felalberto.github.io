@@ -36,7 +36,7 @@ Student work included noise-monitoring concepts, advocacy websites, VR and 3D re
 
 ## Outcome
 
-Students presented their work through community showcases. Participants earned SYEP stipends, some received school credit, and educators carried interdisciplinary and computational thinking routines into later instruction.
+Students presented their work through community showcases. Participants earned SYEP stipends, some received school credit, educators carried interdisciplinary and computational thinking routines into later instruction, and several projects continued into extended inquiry after the program.
 
 ---
 
@@ -95,15 +95,6 @@ Students presented their work through community showcases. Participants earned S
 
 ---
 
-## Program Results
-
-- Students earned **SYEP stipends** and some received **school credit**
-- Student work shared in community showcases
-- Teachers adopted interdisciplinary routines and CT/ELA integration strategies
-- Projects led to extended inquiry even after the program
-
----
-
 ## Design Thinking in Action
 
 The program leaned heavily on strategies outlined in the **IDEO Design Thinking for Educators Toolkit**, including:
@@ -126,8 +117,8 @@ These strategies aligned seamlessly with the program's inquiry-driven approach a
 
 ## Additional Resources
 
--  [TR@TC Global Citizens Website](https://www.tc.columbia.edu/teachingresidents/trtc-global-citizens/)
--  [NYC Environmental Justice Report (2022)](https://www.nyc.gov/assets/oec/ejef/files/ejreport2022.pdf)
--  [IDEO Design Thinking for Educators Toolkit (PDF)](https://f.hubspotusercontent30.net/hubfs/6474038/Design%20for%20Learning/IDEO_DTEdu_v2_toolkit+workbook.pdf)
+- [TR@TC Global Citizens Website](https://www.tc.columbia.edu/teachingresidents/trtc-global-citizens/)
+- [NYC Environmental Justice Report (2022)](https://www.nyc.gov/assets/oec/ejef/files/ejreport2022.pdf)
+- [IDEO Design Thinking for Educators Toolkit (PDF)](https://f.hubspotusercontent30.net/hubfs/6474038/Design%20for%20Learning/IDEO_DTEdu_v2_toolkit+workbook.pdf)
 
 
