@@ -1,9 +1,9 @@
 :root {
   --bg: #0b0a0d;
   --paper: #151219;
-  --text: #d8b8e6;
-  --muted: #b99fc4;
-  --line: #66506f;
+  --text: #f7f3f9;
+  --muted: #d4c9d8;
+  --line: #7a6384;
   --dark: #1c1422;
   --accent: #c48cdb;
   --shell: 1180px;
@@ -208,7 +208,7 @@ a {
 
 .cb-featured .cb-project-number,
 .cb-featured .cb-project-date {
-  color: #9b83a6;
+  color: #cdb8d6;
 }
 
 .cb-project-title {
@@ -234,7 +234,7 @@ a {
 }
 
 .cb-featured .cb-project-excerpt {
-  color: #c5b3cb;
+  color: #e8e0eb;
   font-size: 1.08rem;
 }
 
@@ -306,11 +306,11 @@ a {
   margin: 0 0 54px;
   padding: clamp(34px, 6vw, 64px);
   background: var(--accent);
-  color: #d0b3dc;
+  color: #160f19;
 }
 
 .cb-collab .cb-kicker {
-  color: rgba(0,0,0,.6);
+  color: #2b1f2e;
 }
 
 .cb-collab h2 {
@@ -325,7 +325,7 @@ a {
 .cb-collab p {
   max-width: 620px;
   margin: 26px 0 0;
-  color: rgba(0,0,0,.72);
+  color: #211724;
   font-size: 1.03rem;
   line-height: 1.65;
 }
@@ -493,7 +493,7 @@ a {
 
 .project-body p,
 .project-body li {
-  color: #b7a0bf;
+  color: #e4dbe7;
 }
 
 .project-body a {
