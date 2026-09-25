@@ -200,7 +200,7 @@ order: 1
         CodeBronx helps schools integrate computational thinking, AI literacy, and computer science into everyday instruction through practical professional development, coaching, and curriculum support.
       </p>
       <div class="cbs-cta-row">
-        <a class="cbs-btn cbs-btn-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Services%20Inquiry">📅 Book a Consultation</a>
+        <a class="cbs-btn cbs-btn-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Services%20Inquiry">Book a Consultation</a>
         <a class="cbs-btn cbs-btn-secondary" href="/packages/">View Packages</a>
       </div>
     </div>
@@ -226,7 +226,7 @@ order: 1
 
     <div class="cbs-grid">
       <div class="cbs-card">
-        <div class="cbs-icon">🧠</div>
+        <div class="cbs-icon"></div>
         <h3>Computational Thinking Integration</h3>
         <p>Support for embedding decomposition, pattern recognition, abstraction, and algorithmic thinking into ELA, Math, STEM, and project-based learning.</p>
         <div class="cbs-subtitle">Can include</div>
@@ -239,7 +239,7 @@ order: 1
       </div>
 
       <div class="cbs-card">
-        <div class="cbs-icon">🤖</div>
+        <div class="cbs-icon"></div>
         <h3>AI Literacy for Schools</h3>
         <p>Responsible, age-appropriate AI literacy support that helps students think first, analyze output, verify claims, and justify decisions.</p>
         <div class="cbs-subtitle">Can include</div>
@@ -252,7 +252,7 @@ order: 1
       </div>
 
       <div class="cbs-card">
-        <div class="cbs-icon">🛠️</div>
+        <div class="cbs-icon"></div>
         <h3>Professional Development</h3>
         <p>Interactive professional learning that gives educators concrete strategies, examples, and materials they can use immediately.</p>
         <div class="cbs-subtitle">Formats</div>
@@ -265,7 +265,7 @@ order: 1
       </div>
 
       <div class="cbs-card">
-        <div class="cbs-icon">📈</div>
+        <div class="cbs-icon"></div>
         <h3>Coaching and Classroom Implementation</h3>
         <p>Support after the PD ends, so teachers can plan, try, reflect, and refine the work in real classrooms.</p>
         <div class="cbs-subtitle">Can include</div>
@@ -278,7 +278,7 @@ order: 1
       </div>
 
       <div class="cbs-card">
-        <div class="cbs-icon">⚙️</div>
+        <div class="cbs-icon"></div>
         <h3>STEM, Robotics, and Physical Computing</h3>
         <p>Hands-on computing experiences through robotics, devices, design challenges, physical computing, and student presentation work.</p>
         <div class="cbs-subtitle">Can include</div>
@@ -291,7 +291,7 @@ order: 1
       </div>
 
       <div class="cbs-card">
-        <div class="cbs-icon">📚</div>
+        <div class="cbs-icon"></div>
         <h3>Custom Curriculum and Resource Design</h3>
         <p>Reusable instructional materials for schools, programs, grants, pilots, and professional learning initiatives.</p>
         <div class="cbs-subtitle">Can include</div>
@@ -323,7 +323,7 @@ order: 1
     <h2>Need help choosing the right service?</h2>
     <p>Start with a conversation. The right structure depends on your goals, timeline, grade band, and implementation capacity.</p>
     <div class="cbs-cta-row" style="justify-content:center;">
-      <a class="cbs-btn cbs-btn-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Services%20Inquiry">📅 Book a Consultation</a>
+      <a class="cbs-btn cbs-btn-primary" href="mailto:felalberto@gmail.com?subject=CodeBronx%20Services%20Inquiry">Book a Consultation</a>
       <a class="cbs-btn cbs-btn-secondary" href="/packages/">View Packages</a>
     </div>
   </section>
