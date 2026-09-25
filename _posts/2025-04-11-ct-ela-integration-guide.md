@@ -34,7 +34,7 @@ The primary artifact is the CT + ELA Byte-Sized Integration Guide embedded below
 
 ## Outcome
 
-The guide has been distributed through Cornell Tech educational initiatives and used to help teachers keep computational thinking visible while maintaining the focus on literacy goals.
+The guide has been distributed through Cornell Tech educational initiatives and used in professional learning, coaching, and classroom support. Teachers reported that it helped them make computational thinking visible without taking instructional time away from literacy goals.
 
 ---
 
@@ -53,14 +53,6 @@ The guide has been distributed through Cornell Tech educational initiatives and 
 - **Predicting a character’s next move** → Algorithms (logic and step-by-step reasoning)
 - **Breaking down a writing task** → Decomposition (draft, revise, edit stages)
 - **Finding rhymes or sentence patterns** → Pattern Recognition
-
----
-
-## Use in Practice
-
-The guide has been distributed across NYC through Cornell Tech’s educational initiatives. It’s used in PD, coaching, and classroom support to help schools balance literacy mandates with computational thinking outcomes.
-
-Teachers report it’s helped them **infuse CT concepts without sacrificing ELA instructional time**, and has supported broader CS-for-all goals across literacy-focused classrooms.
 
 ---
 
