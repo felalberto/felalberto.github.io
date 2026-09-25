@@ -166,7 +166,7 @@ If no clear connection exists, CT should not be applied.
 
 ## 5. Instructional Workflow: Standards-Based Design Cycle
 
-### 1. Step 1: Define Objective and Standards Alignment
+### Step 1: Define Objective and Standards Alignment
 
 **Required Outputs:**
 - Academic standard or standards
@@ -176,7 +176,7 @@ If no clear connection exists, CT should not be applied.
 **Guiding Question:**
 What are students expected to produce, and how does CT structure that thinking?
 
-### 2. Step 2: AI-Supported Task Generation
+### Step 2: AI-Supported Task Generation
 
 AI is used to generate:
 
@@ -186,7 +186,7 @@ AI is used to generate:
 **Constraint:**
 All outputs must maintain alignment to the defined standards.
 
-### 3. Step 3: Instructional Alignment Evaluation
+### Step 3: Instructional Alignment Evaluation
 
 Teacher evaluates AI-generated tasks using:
 
@@ -196,7 +196,7 @@ Teacher evaluates AI-generated tasks using:
 
 Tasks that do not meet these criteria are discarded.
 
-### 4. Step 4: Precision Refinement
+### Step 4: Precision Refinement
 
 Refinement focuses on:
 
@@ -207,7 +207,7 @@ Refinement focuses on:
 
 AI supports revision, but the teacher determines final instructional design.
 
-### 5. Step 5: Classroom Integration Design
+### Step 5: Classroom Integration Design
 
 Task is adapted for real classroom conditions:
 
@@ -216,7 +216,7 @@ Task is adapted for real classroom conditions:
 - Transitions and pacing
 - Differentiation
 
-### 6. Step 6: Instructional Artifact Development
+### Step 6: Instructional Artifact Development
 
 AI produces:
 
@@ -227,7 +227,7 @@ AI produces:
 
 Artifacts must be usable immediately with minimal modification.
 
-### 7. Step 7: Instructional Integrity Review
+### Step 7: Instructional Integrity Review
 
 Final validation includes:
 
